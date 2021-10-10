@@ -69,3 +69,7 @@ img.Header-logo {
     height: 67px;
     max-height: 100px;
 }
+
+.Flarum-Blog-Composer .ProseMirror.FormControl.Composer-flexible.TextEditor-editor.Post-body {
+    min-height: 214px;
+}
