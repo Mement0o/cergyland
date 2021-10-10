@@ -18,7 +18,7 @@ body {
 
 @font-face{font-family:nintendo;src:url(/fonts/dogica.otf)}
 
-li.TagTile.colored {
+li.TagTile {
     background-color: white !important;
     height: 84px !important;
     border: 1px solid #000;
@@ -46,8 +46,8 @@ a.TagTile-lastPostedDiscussion {
 h3.TagTile-name {
     font-size: 16px;
     font-weight: normal;
-    /* margin-left: 18px; */
-    /* margin-top: 14px; */
+    margin-left: 18px;
+    margin-top: 11px;
 }
 
 nav.TagsPage-nav.IndexPage-nav.sideNav {
@@ -72,4 +72,30 @@ img.Header-logo {
 
 .Flarum-Blog-Composer .ProseMirror.FormControl.Composer-flexible.TextEditor-editor.Post-body {
     min-height: 214px;
+}
+
+header.Hero.TagHero {
+    background: white;
+}
+
+button.Button.Button--primary.IndexPage-newDiscussion.hasIcon {
+    font-size: 9px;
+    padding: 9px;
+    margin: 0;
+}
+
+span.UserOnline {
+    display: none;
+}
+
+ul.PostUser-badges.badges {
+    display: none;
+}
+
+header.Hero.DiscussionHero {
+    background: white;
+}
+
+article.CommentPost.Post--hidden {
+    /* display: none; */
 }
