@@ -15,7 +15,7 @@ li.item-chatItem {
 body.no-touch {
     font-family: nintendo;
     font-size: 10px;
-    filter: hue-rotate(-346deg);
+    /* filter: hue-rotate(-346deg); */
 }
 
 @font-face{font-family:nintendo;src:url(/fonts/dogica.otf)}
@@ -240,4 +240,16 @@ span {}
 ul.DiscussionListItem-info {
     font-size: 9px;
     margin-top: 11px;
+}
+
+.Afrux-NewsWidget .AfruxWidgets-Widget-content {
+    background: #ffde44;
+}
+
+.AfruxWidgets-Widget.hotDiscussions-widget .AfruxWidgets-Widget-content {
+    background: #76294d;
+}
+
+.AfruxWidgets-Widget.Afrux-OnlineUsersWidget .AfruxWidgets-Widget-content {
+    background: #0000003b;
 }
