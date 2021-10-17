@@ -72,7 +72,7 @@ img.Header-logo {
 }
 
 header.Hero.TagHero {
-    background: white;
+    background: transparent;
 }
 
 button.Button.Button--primary.IndexPage-newDiscussion.hasIcon {
@@ -90,7 +90,7 @@ ul.PostUser-badges.badges {
 }
 
 header.Hero.DiscussionHero {
-    background: white;
+    background: #ffffff00;
 }
 
 article.CommentPost.Post--hidden {
@@ -113,4 +113,8 @@ button.Button.Button--primary.PollModal-SubmitButton.hasIcon {
 
 .fc-daygrid-event-dot {
     display: none;
+}
+
+header#header {
+    box-shadow: none;
 }
