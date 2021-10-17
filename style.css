@@ -15,6 +15,7 @@ li.item-chatItem {
 body.no-touch {
     font-family: nintendo;
     font-size: 10px;
+    filter: hue-rotate(-346deg);
 }
 
 @font-face{font-family:nintendo;src:url(/fonts/dogica.otf)}
@@ -201,4 +202,42 @@ h3.FlarumBlog-Article-Title {
 
 .FlarumBlog-Article-Content-Edit-Dropdown {
     z-index: 10000;
+}
+
+
+.TagCategory-stats.StatWidgetList {
+    display: none !important;
+}
+
+.SubCategory a.TagCategory-content {justify-content: unset !important;}
+
+.SubCategory a.TagCategory-content {
+}
+
+.TagCategory-alignStart {
+    max-width: 70% !important;
+}
+
+.SubCategory {}
+
+li.TagCategory.SubCategory {
+    width: fit-content;
+}
+.DiscussionListItem-content.Slidable-content.read {border: 2px #5494e7;border-style: dashed;border-radius: 24px;margin-bottom: 15px;margin-top: 15px;}
+
+li.item-discussion-language {
+    display: none;
+}
+
+
+
+a.DiscussionListItem-author {
+    display: none;
+}
+
+span {}
+
+ul.DiscussionListItem-info {
+    font-size: 9px;
+    margin-top: 11px;
 }
