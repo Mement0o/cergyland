@@ -143,3 +143,20 @@ button[title~='Popularité'] {
 [class^="item-tag"] {
   display:none;
 }
+
+.CategoriesPage {
+    margin-top: 23px;
+}
+
+.App.BlogOverviewPage {
+    background: none;
+}
+
+.Badge.Badge--private {
+    display: none;
+}
+
+.item-nav ul.Dropdown-menu.dropdown-menu {
+    flex-direction: column-reverse;
+    display: flex;
+}
