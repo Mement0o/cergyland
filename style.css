@@ -118,3 +118,17 @@ button.Button.Button--primary.PollModal-SubmitButton.hasIcon {
 header#header {
     box-shadow: none;
 }
+
+
+li.item-allDiscussions {
+    display: none;
+}
+
+button[title~='accueil'] {
+    display: none !important;
+}
+
+
+button[title~='Popularité'] {
+    display: none !important;
+}
