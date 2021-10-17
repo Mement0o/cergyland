@@ -12,8 +12,9 @@ li.item-chatItem {
     bottom: 0;
 }
 
-body {
+body.no-touch {
     font-family: nintendo;
+    font-size: 10px;
 }
 
 @font-face{font-family:nintendo;src:url(/fonts/dogica.otf)}
@@ -50,11 +51,7 @@ h3.TagTile-name {
     margin-top: 11px;
 }
 
-nav.TagsPage-nav.IndexPage-nav.sideNav {
-    overflow: hidden;
-    width: 1500px;
-    margin-left: -179px;
-}
+
 
 input#input {
 }
@@ -98,4 +95,22 @@ header.Hero.DiscussionHero {
 
 article.CommentPost.Post--hidden {
     /* display: none; */
+}
+
+.App-composer {
+    bottom: 29px !important;
+}
+
+button.Button.Button--primary.PollModal-SubmitButton.hasIcon {
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.fc-event-time {
+    display: none !important;
+}
+
+
+.fc-daygrid-event-dot {
+    display: none;
 }
