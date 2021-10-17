@@ -160,3 +160,45 @@ button[title~='Popularité'] {
     flex-direction: column-reverse;
     display: flex;
 }
+
+.fa-comment:before {
+    content: "\f03e";
+}
+
+.fa-map:before {
+    content: "\f075";
+}
+
+.FlarumBlog-Article-Categories {
+    display: none;
+}
+
+h3.FlarumBlog-Article-Title {
+    margin-top: 10px;
+}
+
+.FlarumBlog-Article-Post {
+    margin-top: 35px;
+}
+
+.Flarum-Blog-Composer button.Button.Button--primary.hasIcon {
+    font-size: 10px;
+}
+
+.BlogCategories.BlogSideWidget {
+    display: none;
+}
+
+.FlarumBlog-Article-PublishDate {
+    margin-bottom: 45px !important;
+}
+
+.FlarumBlog-ToolButtons {display: none;}
+
+.FlarumBlogItem {
+    margin-top: 39px;
+}
+
+.FlarumBlog-Article-Content-Edit-Dropdown {
+    z-index: 10000;
+}
