@@ -8,8 +8,8 @@ main.App-content {
 
 li.item-chatItem {
     position: absolute;
-    left: 0px;
-    bottom: 0;
+    left: 125px;
+    bottom: 167px;
 }
 
 body.no-touch {
@@ -54,8 +54,7 @@ h3.TagTile-name {
 
 
 
-input#input {
-}
+input.FormChat {font-size: 15px;font-family: courier;color: black;}
 
 input.FormControl {
     font-size: 13px;
@@ -253,3 +252,5 @@ ul.DiscussionListItem-info {
 .AfruxWidgets-Widget.Afrux-OnlineUsersWidget .AfruxWidgets-Widget-content {
     background: #0000003b;
 }
+
+div#box {max-width: 222px;line-break: anywhere;}
