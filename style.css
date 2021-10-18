@@ -85,7 +85,7 @@ span.UserOnline {
     display: none;
 }
 
-ul.PostUser-badges.badges {
+ul.PostUser-badges.badges, .UserCard {
     display: none;
 }
 
@@ -222,7 +222,7 @@ h3.FlarumBlog-Article-Title {
 li.TagCategory.SubCategory {
     width: fit-content;
 }
-.DiscussionListItem-content.Slidable-content.read {border: 2px #5494e7;border-style: dashed;border-radius: 24px;margin-bottom: 15px;margin-top: 15px;}
+.DiscussionListItem-content.Slidable-content.read {border: 2px #607083;border-style: dashed;border-radius: 24px;margin-bottom: 15px;margin-top: 15px;}
 
 li.item-discussion-language {
     display: none;
@@ -246,13 +246,64 @@ ul.DiscussionListItem-info {
 }
 
 .AfruxWidgets-Widget.hotDiscussions-widget .AfruxWidgets-Widget-content {
-    background: #76294d;
+    background: #3a1022;
 }
 
 .AfruxWidgets-Widget.Afrux-OnlineUsersWidget .AfruxWidgets-Widget-content {
-    background: #0000003b;
+    background: #05081e54;
 }
 
 div#box {max-width: 222px;line-break: anywhere;}
 
 
+
+
+.container {
+    padding-left: 52px;
+}
+
+.ButtonGroup.Dropdown.dropdown.DiscussionListItem-controls.itemCount12 {
+    margin-right: 19px;
+}
+
+.TagCategory-content-accueil, .TagCategory-content-events, .TagCategory-content-autour-de-cergy, .TagCategory-content-entraides, .TagCategory-content-organisation-r-flexions {
+    pointer-events: none;
+    box-shadow: none !important;
+}
+
+a.TagCategory-content.TagCategory-content-blog {
+    display: none;
+}
+
+.TagCategory.SubCategory .TagCategory-content {
+    box-shadow: none;
+    background: #ffffff00;
+}
+
+.LastDiscussion-userCardContainer {
+    display: none !important;
+}
+
+.Button--primary {
+    color: white;
+}
+
+.Afrux-NewsWidget {
+    color: white !important;
+}
+
+.Afrux-NewsWidget-line.Afrux-NewsWidget-line--current {
+    color: black;
+}
+
+.Afrux-NewsWidget-icon {
+    color: black;
+}
+
+a.TagCategory-content {
+    border-radius: 69px !important;
+}
+
+h3.DiscussionListItem-title {
+    color: white !important;
+}
