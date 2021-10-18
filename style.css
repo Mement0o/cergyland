@@ -79,6 +79,7 @@ button.Button.Button--primary.IndexPage-newDiscussion.hasIcon {
     font-size: 9px;
     padding: 9px;
     margin: 0;
+    box-shadow: 3px 2px 0px 2px #324763;
 }
 
 span.UserOnline {
@@ -272,7 +273,7 @@ div#box {max-width: 222px;line-break: anywhere;}
 
 .TagCategory-content-accueil, .TagCategory-content-events, .TagCategory-content-autour-de-cergy, .TagCategory-content-entraides, .TagCategory-content-organisation-r-flexions {
     pointer-events: none;
-    box-shadow: none !important;
+    box-shadow: -2px 2px 0px 2px #324763 !important;
 }
 
 a.TagCategory-content.TagCategory-content-blog {
@@ -383,5 +384,23 @@ h2.DiscussionHero-title {
 a.TagLabel.TagLabel--child {}
 
 span.TagLabel-text {
-    font-size: 7px;
+    font-size: 12px;
+    /* display: none; */
+}
+
+
+.DiscussionListItem {
+    border-radius: 20px;
+}
+
+.DiscussionListItem:hover {
+    background: none;
+}
+
+.DiscussionListItem-content.Slidable-content.read:hover {
+    background: #242c37;
+}
+
+.DiscussionListItem-info li.item-tags {
+    display: none;
 }
