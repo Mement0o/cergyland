@@ -153,7 +153,9 @@ button[title~='Popularité'] {
 }
 
 .Badge.Badge--private {
-    display: none;
+    /* display: none; */
+    background: none;
+    box-shadow: none;
 }
 
 .item-nav ul.Dropdown-menu.dropdown-menu {
@@ -231,10 +233,12 @@ li.item-discussion-language {
 
 
 a.DiscussionListItem-author {
-    display: none;
+    /* display: none; */
 }
 
-span {}
+.a.TagLabel.TagLabel--child span {
+    font-size: 6px !important;
+}
 
 ul.DiscussionListItem-info {
     font-size: 9px;
@@ -259,7 +263,7 @@ div#box {max-width: 222px;line-break: anywhere;}
 
 
 .container {
-    padding-left: 52px;
+    /* padding-left: 52px; */
 }
 
 .ButtonGroup.Dropdown.dropdown.DiscussionListItem-controls.itemCount12 {
@@ -348,4 +352,36 @@ body.touch li.item-markAllAsRead {
 
 ul.Dropdown-menu.dropdown-menu.Dropdown-menu--top {
     /* transition: none; */
+}
+
+
+.DiscussionListItem-author img.Avatar {
+    display: none;
+}
+
+.Post-body {
+    font-family: courier;
+}
+
+li.item-edited {
+    display: none !important;
+}
+
+.PostUser h3, .PostUser h3 a {
+    font-size: 11px;
+}
+
+img.Avatar.PostUser-avatar {
+    width: 48px;
+    height: 48px;
+}
+
+h2.DiscussionHero-title {
+    font-size: 15px;
+}
+
+a.TagLabel.TagLabel--child {}
+
+span.TagLabel-text {
+    font-size: 7px;
 }
