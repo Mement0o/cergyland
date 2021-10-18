@@ -324,3 +324,28 @@ body.touch .container {
 body.touch .TagCategory-alignStart {
     max-width: 100% !important;
 }
+
+
+body.touch .DiscussionListItem-content.Slidable-content.read {
+    margin-left: 7px;
+    margin-right: 7px;
+    border-radius: 5px;
+}
+
+body.touch .IndexPage-toolbar {
+    margin-left: -7px;
+}
+
+body.touch ul.IndexPage-toolbar-action {
+    margin-top: -36px;
+}
+
+body.touch li.item-markAllAsRead {
+    display: none;
+}
+
+.dropdown-backdrop {}
+
+ul.Dropdown-menu.dropdown-menu.Dropdown-menu--top {
+    /* transition: none; */
+}
