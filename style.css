@@ -12,7 +12,7 @@ li.item-chatItem {
     bottom: 167px;
 }
 
-body.no-touch {
+body {
     font-family: nintendo;
     font-size: 10px;
     /* filter: hue-rotate(-346deg); */
@@ -306,4 +306,21 @@ a.TagCategory-content {
 
 h3.DiscussionListItem-title {
     color: white !important;
+}
+
+body.touch a.TagCategory-content {
+    border-radius: 10px !important;
+}
+
+body.touch .TagCategory-alignEnd {
+    margin: 0;
+    display: none !important;
+}
+
+body.touch .container {
+    padding-left: 13px;
+}
+
+body.touch .TagCategory-alignStart {
+    max-width: 100% !important;
 }
