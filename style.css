@@ -86,7 +86,7 @@ span.UserOnline {
     display: none;
 }
 
-ul.PostUser-badges.badges, .UserCard {
+ul.PostUser-badges.badges {
     display: none;
 }
 
@@ -139,10 +139,11 @@ button[title~='Popularité'] {
 .Hero .container {
     padding-top: 40px;
     padding-bottom: 11px;
+    pointer-events: none;
 }
 
 [class^="item-tag"] {
-  display:none;
+  /* display:none; */
 }
 
 .CategoriesPage {
@@ -225,7 +226,7 @@ h3.FlarumBlog-Article-Title {
 li.TagCategory.SubCategory {
     width: fit-content;
 }
-.DiscussionListItem-content.Slidable-content.read {border: 2px #607083;border-style: dashed;border-radius: 24px;margin-bottom: 15px;margin-top: 15px;}
+.DiscussionListItem-content.Slidable-content.read {border: 2px #607083;border-style: dashed;border-radius: 24px;margin-bottom: 15px;margin-top: 15px;background: #14191fd1;}
 
 li.item-discussion-language {
     display: none;
@@ -311,6 +312,7 @@ a.TagCategory-content {
 
 h3.DiscussionListItem-title {
     color: white !important;
+    /* text-shadow: 1px 0 0 #14191f, -1px 0 0 #14191f, 0 2px 0 #14191f, 0 0px 0 #14191f, 1px 1px #14191f, -1px -1px 0 #14191f, 1px -1px 0 #14191f, -1px 1px 0 #14191f; */
 }
 
 body.touch a.TagCategory-content {
@@ -378,7 +380,9 @@ img.Avatar.PostUser-avatar {
 }
 
 h2.DiscussionHero-title {
-    font-size: 15px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 0 0 #14191f, -2px 0 0 #14191f, 0 2px 0 #14191f, 0 -2px 0 #14191f, 1px 1px #14191f, -1px -1px 0 #14191f, 1px -1px 0 #14191f, -1px 1px 0 #14191f;
 }
 
 a.TagLabel.TagLabel--child {}
@@ -398,9 +402,34 @@ span.TagLabel-text {
 }
 
 .DiscussionListItem-content.Slidable-content.read:hover {
-    background: #242c37;
+    /* background: #242c37; */
 }
 
 .DiscussionListItem-info li.item-tags {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 10px;
+    background: #ffffff05;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3a4451;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+:root {
+  scrollbar-color: #3a4451 #ffffff05 !important;
+  scrollbar-width: thin !important;
+}
+
+h2.Hero-title {
+    text-shadow: 2px 0 0 #14191f, -2px 0 0 #14191f, 0 2px 0 #14191f, 0 -2px 0 #14191f, 1px 1px #14191f, -1px -1px 0 #14191f, 1px -1px 0 #14191f, -1px 1px 0 #14191f;
+    color: white;
+}
+
+li.item-frontpage {
     display: none;
 }
