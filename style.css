@@ -142,8 +142,8 @@ button[title~='Popularité'] {
     pointer-events: none;
 }
 
-[class^="item-tag"] {
-  /* display:none; */
+li[class^="item-tag"] {
+  display:none;
 }
 
 .CategoriesPage {
