@@ -139,10 +139,9 @@ button[title~='Popularité'] {
 .Hero .container {
     padding-top: 40px;
     padding-bottom: 11px;
-    pointer-events: none;
 }
 
-li[class^="item-tag"] {
+.item-nav li[class^="item-tag"] {
   display:none;
 }
 
@@ -432,4 +431,10 @@ h2.Hero-title {
 
 li.item-frontpage {
     display: none;
+}
+
+
+
+.LastDiscussion-bottomRow {
+    word-break: break-word;
 }
