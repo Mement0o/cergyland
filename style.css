@@ -145,9 +145,7 @@ button[title~='Popularité'] {
   display:none;
 }
 
-.CategoriesPage {
-    margin-top: 23px;
-}
+
 
 .App.BlogOverviewPage {
     background: none;
@@ -489,4 +487,133 @@ p.FlarumBlog-reached-end {
 
 div#alerts {
     display: none;
+}
+
+
+.touch button[aria-label="Afficher le menu déroulant de navigation"] {color: white;font-size: 10px;display: none;}
+
+
+.touch  .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount8 {
+    box-shadow: 3px 2px 0px 2px #324763;
+    background: #4d698e;
+    border-radius: 11px;
+    margin-top: 10px;
+}
+
+.touch  .darkenBackground {
+    background: #14191f;
+}
+
+.touch .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount12 {
+    /* background: #272e38; */
+    /* box-shadow: -2px 2px 0px 2px #1e252e; */
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 0 !important;
+}
+
+
+
+.touch .item-nav .Dropdown .Dropdown-menu {visibility: visible;transform: none;flex-direction: row-reverse;position: absolute;box-shadow: none;height: 57px;width: auto !important;overflow: hidden;background: none;top: 14px;}
+
+.touch :not(.item-sort) Dropdown-menu.dropdown-menu {visibility: visible;transform: none;flex-direction: row-reverse;position: absolute;box-shadow: none;height: 57px;width: auto !important;/* overflow: hidden; */background: none;top: 14px;display: flex;}
+
+.touch ul.Dropdown-menu.dropdown-menu span {
+    display: none;
+    /* color: #14191f; */
+}
+
+.touch li.item-nav {
+    width: 300px;
+    height: 50px;
+    position: fixed;
+    left: 50px;
+    top: 2px;
+    z-index: 10000;
+}
+
+.touch .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount12 {
+    width: 300px;
+    height: 50px;
+    position: absolute !important;
+    left: 100px;
+    margin-top: 0px !important;
+}
+
+.touch ul.Dropdown-menu.dropdown-menu li {
+    width: 57px;
+}
+
+
+.touch .scrolled .App-navigation {
+    box-shadow: none;
+}
+
+.touch .Dropdown-menu i.icon {
+    margin: 0 !important;
+}
+
+
+.touch .Dropdown-menu a.hasIcon {
+    margin: 0;
+    padding: 0 !important;
+    width: fit-content;
+}
+
+.touch li.Dropdown-separator {
+    display: none;
+}
+
+.touch .Dropdown .Dropdown-menu>.active>a {
+    background: none  !important;
+}
+
+.touch nav.IndexPage-nav.sideNav {
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    top: 2px;
+    left: 50px;
+}
+
+.touch li[class^="item-tag"] {
+  display:none;
+}
+
+.touch button.Dropdown-toggle.Button {
+    /* display: none; */
+}
+
+.touch i.icon.fas.fa-check.Button-icon span.Button-label {
+    display: block !important;
+}
+
+.touch .itemCount12 button[aria-label="Afficher le menu déroulant"] {
+    display: none;
+}
+
+.touch .sideNav ul.Dropdown-menu.dropdown-menu {
+    visibility: visible;
+    transform: none;
+    flex-direction: row-reverse;
+    position: absolute;
+    box-shadow: none;
+    height: 57px;
+    width: auto !important;
+    overflow: hidden;
+    background: none;
+    top: 14px;
+    display: flex;
+}
+
+.touch .item-nav button.Dropdown-toggle.Button .Button-label {
+    display: none;
+}
+
+.touch i.icon.fas.fa-sort.Button-caret {
+    display: none;
+}
+
+.active i.icon.fas {
+    color: #3988ff;
 }
