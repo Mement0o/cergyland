@@ -225,7 +225,9 @@ h3.FlarumBlog-Article-Title {
 li.TagCategory.SubCategory {
     width: fit-content;
 }
-.DiscussionListItem-content.Slidable-content.read {border: 2px #607083;border-style: dashed;border-radius: 24px;margin-bottom: 15px;margin-top: 15px;background: #14191fd1;}
+.DiscussionListItem-content.Slidable-content {border: 2px #607083;border-style: dashed;border-radius: 24px;margin-bottom: 15px;margin-top: 15px;background: #1e2936eb;}
+
+.DiscussionListItem-content.Slidable-content.read {border: 2px #14191f dashed !important;}
 
 li.item-discussion-language {
     display: none;
@@ -437,4 +439,54 @@ li.item-frontpage {
 
 .LastDiscussion-bottomRow {
     word-break: break-word;
+}
+
+i.fa.fa-circle.fa-stack-2x.icon-background {
+    display: none;
+}
+
+.TagCategory.SubCategory .TagCategory-content .TagCategory-icon .CategoryIcon {
+    color: white !important;
+} 
+
+article.Post.CommentPost.editing {
+    display: none;
+}
+
+
+
+.App-composer {
+    font-family: courier;
+}
+
+.App.BlogOverviewPage {
+    background: #14191f;
+}
+
+.FlarumBlogOverview .BlogOverviewButtons .Button.hasIcon {
+    box-shadow: -3px 3px 0px 2px #324763;
+    background: #4d698e;
+    color: white;
+}
+
+.App.BlogOverviewPage {
+    background: #14191f !important;
+}
+
+.FlarumBlogOverview .BlogOverviewButtons .Button.hasIcon {
+    box-shadow: -3px 3px 0px 2px #324763;
+    background: #4d698e;
+    color: white;
+}
+
+.BlogFeatured h2 {
+    display: none;
+}
+
+p.FlarumBlog-reached-end {
+    display: none;
+}
+
+div#alerts {
+    display: none;
 }
