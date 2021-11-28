@@ -10,22 +10,22 @@ li.item-chatItem {
     position: absolute;
     left: 125px;
     bottom: 167px;
-}
-
-body {
+}body {
     font-family: nintendo;
-    font-size: 10px;
-    /* filter: hue-rotate(-346deg); */
+    font-size: 10px
 }
 
-@font-face{font-family:nintendo;src:url(/fonts/dogica.otf)}
+@font-face {
+    font-family: nintendo;
+    src: url(/fonts/dogica.otf)
+}
 
 li.TagTile {
     background-color: white !important;
     height: 84px !important;
     border: 1px solid #000;
     margin: 10px;
-    border-radius: 4px;
+    border-radius: 4px
 }
 
 a.TagTile-info {
@@ -34,493 +34,466 @@ a.TagTile-info {
     padding: 0px;
     transition: none;
     position: absolute;
-    margin-bottom: -42px;
+    margin-bottom: -42px
 }
 
 a.TagTile-lastPostedDiscussion {
-    color: black !important;
+    color: black !important
 }
 
 a.TagTile-lastPostedDiscussion {
-    border: none;
+    border: none
 }
 
 h3.TagTile-name {
     font-size: 16px;
     font-weight: normal;
     margin-left: 18px;
-    margin-top: 11px;
+    margin-top: 11px
 }
 
-
-
-input.FormChat {font-size: 15px;font-family: courier;color: black;}
+input.FormChat {
+    font-size: 15px;
+    font-family: courier;
+    color: black
+}
 
 input.FormControl {
     font-size: 13px;
-    font-family: monospace;
+    font-family: monospace
 }
 
 img.Header-logo {
     width: 154px;
     height: 67px;
-    max-height: 100px;
+    max-height: 100px
 }
 
 .Flarum-Blog-Composer .ProseMirror.FormControl.Composer-flexible.TextEditor-editor.Post-body {
-    min-height: 214px;
+    min-height: 214px
 }
 
 header.Hero.TagHero {
-    background: transparent;
+    background: transparent
 }
 
 button.Button.Button--primary.IndexPage-newDiscussion.hasIcon {
     font-size: 9px;
     padding: 9px;
     margin: 0;
-    box-shadow: 3px 2px 0px 2px #324763;
+    box-shadow: 3px 2px 0px 2px #324763
 }
 
 span.UserOnline {
-    display: none;
+    display: none
 }
 
 ul.PostUser-badges.badges {
-    display: none;
+    display: none
 }
 
 header.Hero.DiscussionHero {
-    background: #ffffff00;
-}
-
-article.CommentPost.Post--hidden {
-    /* display: none; */
+    background: #ffffff00
 }
 
 .App-composer {
-    bottom: 29px !important;
+    bottom: 29px !important
 }
 
 button.Button.Button--primary.PollModal-SubmitButton.hasIcon {
     text-transform: capitalize;
-    font-size: 13px;
+    font-size: 13px
 }
 
 .fc-event-time {
-    display: none !important;
+    display: none !important
 }
 
-
 .fc-daygrid-event-dot {
-    display: none;
+    display: none
 }
 
 header#header {
-    box-shadow: none;
-}
-
-
-li.item-allDiscussions {
-    display: none;
+    box-shadow: none
 }
 
 button[title~='accueil'] {
-    display: none !important;
+    display: none !important
 }
-
 
 button[title~='Popularité'] {
-    display: none !important;
+    display: none !important
 }
-
-
 
 .Hero .container {
     padding-top: 40px;
-    padding-bottom: 11px;
+    padding-bottom: 11px
 }
 
 .item-nav li[class^="item-tag"] {
-  display:none;
+    display: none
 }
 
-
-
 .App.BlogOverviewPage {
-    background: none;
+    background: none
 }
 
 .Badge.Badge--private {
-    /* display: none; */
     background: none;
-    box-shadow: none;
+    box-shadow: none
 }
 
 .item-nav ul.Dropdown-menu.dropdown-menu {
-    flex-direction: column-reverse;
-    display: flex;
+    flex-direction: column;
+    display: flex
 }
 
 .fa-comment:before {
-    content: "\f03e";
+    content: "\f03e"
 }
 
 .fa-map:before {
-    content: "\f075";
+    content: "\f075"
 }
 
 .FlarumBlog-Article-Categories {
-    display: none;
+    display: none
 }
 
 h3.FlarumBlog-Article-Title {
-    margin-top: 10px;
+    margin-top: 10px
 }
 
 .FlarumBlog-Article-Post {
-    margin-top: 35px;
+    margin-top: 35px
 }
 
 .Flarum-Blog-Composer button.Button.Button--primary.hasIcon {
-    font-size: 10px;
+    font-size: 10px
 }
 
 .BlogCategories.BlogSideWidget {
-    display: none;
+    display: none
 }
 
 .FlarumBlog-Article-PublishDate {
-    margin-bottom: 45px !important;
+    margin-bottom: 45px !important
 }
 
-.FlarumBlog-ToolButtons {display: none;}
+.FlarumBlog-ToolButtons {
+    display: none
+}
 
 .FlarumBlogItem {
-    margin-top: 39px;
+    margin-top: 39px
 }
 
 .FlarumBlog-Article-Content-Edit-Dropdown {
-    z-index: 10000;
+    z-index: 10000
 }
-
 
 .TagCategory-stats.StatWidgetList {
-    display: none !important;
+    display: none !important
 }
 
-.SubCategory a.TagCategory-content {justify-content: unset !important;}
-
 .SubCategory a.TagCategory-content {
+    justify-content: unset !important
 }
 
 .TagCategory-alignStart {
-    max-width: 70% !important;
+    max-width: 70% !important
 }
-
-.SubCategory {}
 
 li.TagCategory.SubCategory {
-    width: fit-content;
-}
-.DiscussionListItem-content.Slidable-content {border: 2px #607083;border-style: dashed;border-radius: 24px;margin-bottom: 15px;margin-top: 15px;background: #1e2936eb;}
-
-.DiscussionListItem-content.Slidable-content.read {border: 2px #14191f dashed !important;}
-
-li.item-discussion-language {
-    display: none;
+    width: fit-content
 }
 
+.DiscussionListItem-content.Slidable-content {
+    border: 2px #ee2066;
+    border-style: dashed;
+    border-radius: 24px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background: #e91e6359
+}
 
-
-a.DiscussionListItem-author {
-    /* display: none; */
+.DiscussionListItem-content.Slidable-content.read {
+    border: 2px #14191f dashed !important;
+    background: #22364feb
 }
 
 .a.TagLabel.TagLabel--child span {
-    font-size: 6px !important;
+    font-size: 6px !important
 }
 
 ul.DiscussionListItem-info {
     font-size: 9px;
-    margin-top: 11px;
+    margin-top: 11px
 }
 
 .Afrux-NewsWidget .AfruxWidgets-Widget-content {
-    background: #ffde44;
+    background: #ffde44
 }
 
 .AfruxWidgets-Widget.hotDiscussions-widget .AfruxWidgets-Widget-content {
-    background: #3a1022;
+    background: #3a1022
 }
 
 .AfruxWidgets-Widget.Afrux-OnlineUsersWidget .AfruxWidgets-Widget-content {
-    background: #05081e54;
+    background: #05081e54
 }
 
-div#box {max-width: 222px;line-break: anywhere;}
-
-
-
-
-.container {
-    /* padding-left: 52px; */
+div#box {
+    max-width: 222px;
+    line-break: anywhere
 }
 
 .ButtonGroup.Dropdown.dropdown.DiscussionListItem-controls.itemCount12 {
-    margin-right: 19px;
+    margin-right: 19px
 }
 
-.TagCategory-content-accueil, .TagCategory-content-events, .TagCategory-content-autour-de-cergy, .TagCategory-content-entraides, .TagCategory-content-organisation-r-flexions {
+.TagCategory-content-accueil,
+.TagCategory-content-events,
+.TagCategory-content-autour-de-cergy,
+.TagCategory-content-entraides,
+.TagCategory-content-organisation-r-flexions {
     pointer-events: none;
-    box-shadow: -2px 2px 0px 2px #324763 !important;
+    box-shadow: -2px 2px 0px 2px #324763 !important
 }
 
 a.TagCategory-content.TagCategory-content-blog {
-    display: none;
+    display: none
 }
 
 .TagCategory.SubCategory .TagCategory-content {
     box-shadow: none;
-    background: #ffffff00;
+    background: #ffffff00
 }
 
 .LastDiscussion-userCardContainer {
-    display: none !important;
+    display: none !important
 }
 
 .Button--primary {
-    color: white;
+    color: white
 }
 
 .Afrux-NewsWidget {
-    color: white !important;
+    color: white !important
 }
 
 .Afrux-NewsWidget-line.Afrux-NewsWidget-line--current {
-    color: black;
+    color: black
 }
 
 .Afrux-NewsWidget-icon {
-    color: black;
+    color: black
 }
 
 a.TagCategory-content {
-    border-radius: 69px !important;
+    border-radius: 69px !important
 }
 
 h3.DiscussionListItem-title {
-    color: white !important;
-    /* text-shadow: 1px 0 0 #14191f, -1px 0 0 #14191f, 0 2px 0 #14191f, 0 0px 0 #14191f, 1px 1px #14191f, -1px -1px 0 #14191f, 1px -1px 0 #14191f, -1px 1px 0 #14191f; */
+    color: white !important
 }
 
 body.touch a.TagCategory-content {
-    border-radius: 10px !important;
+    border-radius: 10px !important
 }
 
 body.touch .TagCategory-alignEnd {
     margin: 0;
-    display: none !important;
+    display: none !important
 }
 
 body.touch .container {
-    padding-left: 13px;
+    padding-left: 13px
 }
 
 body.touch .TagCategory-alignStart {
-    max-width: 100% !important;
+    max-width: 100% !important
 }
-
 
 body.touch .DiscussionListItem-content.Slidable-content.read {
     margin-left: 7px;
     margin-right: 7px;
-    border-radius: 5px;
+    border-radius: 5px
 }
 
 body.touch .IndexPage-toolbar {
-    margin-left: -7px;
+    margin-left: -7px
 }
 
 body.touch ul.IndexPage-toolbar-action {
-    margin-top: -36px;
+    margin-top: -36px
 }
 
 body.touch li.item-markAllAsRead {
-    display: none;
-}
-
-.dropdown-backdrop {}
-
-ul.Dropdown-menu.dropdown-menu.Dropdown-menu--top {
-    /* transition: none; */
-}
-
-
-.DiscussionListItem-author img.Avatar {
-    display: none;
+    display: none
 }
 
 .Post-body {
-    font-family: courier;
+    font-family: courier
 }
 
 li.item-edited {
-    display: none !important;
+    display: none !important
 }
 
-.PostUser h3, .PostUser h3 a {
-    font-size: 11px;
+.PostUser h3,
+.PostUser h3 a {
+    font-size: 11px
 }
 
 img.Avatar.PostUser-avatar {
     width: 48px;
-    height: 48px;
+    height: 48px
 }
 
 h2.DiscussionHero-title {
     font-size: 20px;
     color: white;
-    text-shadow: 2px 0 0 #14191f, -2px 0 0 #14191f, 0 2px 0 #14191f, 0 -2px 0 #14191f, 1px 1px #14191f, -1px -1px 0 #14191f, 1px -1px 0 #14191f, -1px 1px 0 #14191f;
+    text-shadow: 2px 0 0 #14191f, -2px 0 0 #14191f, 0 2px 0 #14191f, 0 -2px 0 #14191f, 1px 1px #14191f, -1px -1px 0 #14191f, 1px -1px 0 #14191f, -1px 1px 0 #14191f
 }
-
-a.TagLabel.TagLabel--child {}
 
 span.TagLabel-text {
-    font-size: 12px;
-    /* display: none; */
+    font-size: 12px
 }
 
-
 .DiscussionListItem {
-    border-radius: 20px;
+    border-radius: 20px
 }
 
 .DiscussionListItem:hover {
-    background: none;
-}
-
-.DiscussionListItem-content.Slidable-content.read:hover {
-    /* background: #242c37; */
-}
-
-.DiscussionListItem-info li.item-tags {
-    display: none;
+    background: none
 }
 
 ::-webkit-scrollbar {
     height: 12px;
     width: 10px;
-    background: #ffffff05;
+    background: #ffffff05
 }
 
 ::-webkit-scrollbar-thumb {
     background: #3a4451;
     -webkit-border-radius: 1ex;
-    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75)
 }
+
 :root {
-  scrollbar-color: #3a4451 #ffffff05 !important;
-  scrollbar-width: thin !important;
+    scrollbar-color: #3a4451 #fff 5 !important;
+    scrollbar-width: thin !important
 }
 
 h2.Hero-title {
     text-shadow: 2px 0 0 #14191f, -2px 0 0 #14191f, 0 2px 0 #14191f, 0 -2px 0 #14191f, 1px 1px #14191f, -1px -1px 0 #14191f, 1px -1px 0 #14191f, -1px 1px 0 #14191f;
-    color: white;
+    color: white
 }
 
 li.item-frontpage {
-    display: none;
+    display: none
 }
 
-
-
 .LastDiscussion-bottomRow {
-    word-break: break-word;
+    word-break: break-word
 }
 
 i.fa.fa-circle.fa-stack-2x.icon-background {
-    display: none;
+    display: none
 }
 
 .TagCategory.SubCategory .TagCategory-content .TagCategory-icon .CategoryIcon {
-    color: white !important;
-} 
+    color: white !important
+}
 
 article.Post.CommentPost.editing {
-    display: none;
+    display: none
 }
-
-
 
 .App-composer {
-    font-family: courier;
+    font-family: courier
 }
 
 .App.BlogOverviewPage {
-    background: #14191f;
+    background: #14191f
 }
 
 .FlarumBlogOverview .BlogOverviewButtons .Button.hasIcon {
     box-shadow: -3px 3px 0px 2px #324763;
     background: #4d698e;
-    color: white;
+    color: white
 }
 
 .App.BlogOverviewPage {
-    background: #14191f !important;
+    background: #14191f !important
 }
 
 .FlarumBlogOverview .BlogOverviewButtons .Button.hasIcon {
     box-shadow: -3px 3px 0px 2px #324763;
     background: #4d698e;
-    color: white;
+    color: white
 }
 
 .BlogFeatured h2 {
-    display: none;
+    display: none
 }
 
 p.FlarumBlog-reached-end {
-    display: none;
+    display: none
 }
 
 div#alerts {
-    display: none;
+    display: none
 }
 
-
-.touch button[aria-label="Afficher le menu déroulant de navigation"] {color: white;font-size: 10px;display: none;}
-
-
-.touch  .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount8 {
-    box-shadow: 3px 2px 0px 2px #324763;
-    background: #4d698e;
-    border-radius: 11px;
-    margin-top: 10px;
+.touch button[aria-label="Afficher le menu déroulant de navigation"]{
+    color:white;
+    font-size:10px;
+    display:none;
 }
 
-.touch  .darkenBackground {
-    background: #14191f;
+.touch .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount8{
+    box-shadow:3px 2px 0px 2px #324763;
+    background:#4d698e;
+    border-radius:11px;
+    margin-top:10px;
+}
+
+.touch .darkenBackground {
+    background: #14191f
 }
 
 .touch .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount12 {
-    /* background: #272e38; */
-    /* box-shadow: -2px 2px 0px 2px #1e252e; */
     border-radius: 10px;
     margin-top: 10px;
-    padding: 0 !important;
+    padding: 0 !important
 }
 
+.touch .item-nav .Dropdown .Dropdown-menu {
+    visibility: visible;
+    transform: none;
+    flex-direction: row-reverse;
+    position: absolute;
+    box-shadow: none;
+    height: 57px;
+    width: auto !important;
+    overflow: hidden;
+    background: none;
+    top: 14px
+}
 
-
-.touch .item-nav .Dropdown .Dropdown-menu {visibility: visible;transform: none;flex-direction: row-reverse;position: absolute;box-shadow: none;height: 57px;width: auto !important;overflow: hidden;background: none;top: 14px;}
-
-.touch :not(.item-sort) Dropdown-menu.dropdown-menu {visibility: visible;transform: none;flex-direction: row-reverse;position: absolute;box-shadow: none;height: 57px;width: auto !important;/* overflow: hidden; */background: none;top: 14px;display: flex;}
-
-.touch ul.Dropdown-menu.dropdown-menu span {
-    display: none;
-    /* color: #14191f; */
+.touch:not(.item-sort) Dropdown-menu.dropdown-menu {
+    visibility: visible;
+    transform: none;
+    flex-direction: row-reverse;
+    position: absolute;
+    box-shadow: none;
+    height: 57px;
+    width: auto !important;
+    background: none;
+    top: 14px;
+    display: flex
 }
 
 .touch li.item-nav {
@@ -529,7 +502,7 @@ div#alerts {
     position: fixed;
     left: 50px;
     top: 2px;
-    z-index: 10000;
+    z-index: 1000
 }
 
 .touch .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount12 {
@@ -537,35 +510,33 @@ div#alerts {
     height: 50px;
     position: absolute !important;
     left: 100px;
-    margin-top: 0px !important;
+    margin-top: 0px !important
 }
 
 .touch ul.Dropdown-menu.dropdown-menu li {
-    width: 57px;
+    width: -webkit-fill-available
 }
 
-
 .touch .scrolled .App-navigation {
-    box-shadow: none;
+    box-shadow: none
 }
 
 .touch .Dropdown-menu i.icon {
-    margin: 0 !important;
+    margin: 0 !important
 }
-
 
 .touch .Dropdown-menu a.hasIcon {
     margin: 0;
     padding: 0 !important;
-    width: fit-content;
+    width: fit-content
 }
 
 .touch li.Dropdown-separator {
-    display: none;
+    display: none
 }
 
 .touch .Dropdown .Dropdown-menu>.active>a {
-    background: none  !important;
+    background: none !important
 }
 
 .touch nav.IndexPage-nav.sideNav {
@@ -573,23 +544,19 @@ div#alerts {
     height: 40px;
     position: absolute;
     top: 2px;
-    left: 50px;
+    left: 50px
 }
 
 .touch li[class^="item-tag"] {
-  display:none;
-}
-
-.touch button.Dropdown-toggle.Button {
-    /* display: none; */
+    display: none
 }
 
 .touch i.icon.fas.fa-check.Button-icon span.Button-label {
-    display: block !important;
+    display: block !important
 }
 
 .touch .itemCount12 button[aria-label="Afficher le menu déroulant"] {
-    display: none;
+    display: none
 }
 
 .touch .sideNav ul.Dropdown-menu.dropdown-menu {
@@ -603,17 +570,279 @@ div#alerts {
     overflow: hidden;
     background: none;
     top: 14px;
-    display: flex;
+    display: flex
 }
 
 .touch .item-nav button.Dropdown-toggle.Button .Button-label {
-    display: none;
+    display: none
 }
 
 .touch i.icon.fas.fa-sort.Button-caret {
-    display: none;
+    display: none
 }
 
 .active i.icon.fas {
-    color: #3988ff;
+    color: #3988ff
+}
+
+button.Button.Button--primary.PollModal-SubmitButton.hasIcon {
+    box-shadow: 3px 2px 0px 2px #324763;
+    padding: 9px
+}
+
+body.touch .TagCategory-alignEnd {
+    display: block !important
+}
+
+.LastDiscussion-avatar {
+    display: block !important
+}
+
+a.TagCategory-content.TagCategory-content-accueil .TagCategory-alignEnd {
+    display: none !important
+}
+
+a.TagCategory-content.TagCategory-content-organisation .TagCategory-alignEnd {
+    display: none !important
+}
+
+a.TagCategory-content.TagCategory-content-events .TagCategory-alignEnd {
+    display: none !important
+}
+
+a.TagCategory-content.TagCategory-content-events .TagCategory-alignEnd {
+    display: none !important
+}
+
+a.TagCategory-content.TagCategory-content-entraides .TagCategory-alignEnd {
+    display: none !important
+}
+
+a.TagCategory-content.TagCategory-content-autour-de-cergy .TagCategory-alignEnd {
+    display: none !important
+}
+
+.TagCategory.SubCategory .TagCategory-content .TagCategory-name {
+    font-size: 13px !important
+}
+
+.TagCategory-description {
+    font-size: 9px !important
+}
+
+img.Avatar {
+    width: 36px;
+    height: 36px
+}
+
+.LastDiscussion-topRow {
+    font-size: 9px !important;
+    margin-left: 7px
+}
+
+.LastDiscussion-bottomRow {
+    font-size: 9px !important
+}
+
+.DiscussionListItem-controls {
+    right: 26px
+}
+
+li.item-excerpt {
+    color: #ffffffa6 !important
+}
+
+a.fc-daygrid-event.fc-daygrid-dot-event.fc-event.fc-event-start.fc-event-end.fc-event-future {
+    color: white
+}
+
+.no-touch .Post-actions {
+    opacity: 1 !important
+}
+
+.touch .item-settings ul.Dropdown-menu.dropdown-menu span {
+    display: none
+}
+
+.touch .sideNavContainer li .hasIcon span {
+    display: none
+}
+
+.touch li.App-primaryControl.item-subscription {
+    display: none
+}
+
+.touch li.item-allDiscussions {
+    width: 19px
+}
+
+.BlogItemPage {
+    background: #14191f !important
+}
+
+.FlarumBlog-Article-Author-background {
+    display: none
+}
+
+.FlarumBlog-Article-Author {
+    box-shadow: none !important
+}
+
+.BlogForumNav.BlogSideWidget {
+    box-shadow: none
+}
+
+a.BlogFeatured-list-item.FlarumBlog-default-image {
+    box-shadow: none
+}
+
+.BlogOverviewButtons {
+    margin-top: -2px
+}
+
+.Post-body a {
+    color: #ff247f;
+    text-decoration: underline;
+    border-bottom: none !important
+}
+
+.paneShowing .DiscussionPage-list {
+    display: none
+}
+
+.touch .BlogForumNav .Dropdown-menu span.Button-label {
+    display: none
+}
+
+.touch .BlogFeatured .ButtonGroup.Dropdown.dropdown.itemCount10 {
+    display: none
+}
+
+.touch .BlogForumNav.BlogSideWidget h3 {
+    display: none
+}
+
+.touch .BlogOverviewButtons {
+    padding-bottom: 27px
+}
+
+.touch button.Button.hasIcon span {
+    display: none
+}
+
+.touch button.Button.hasIcon[title="Publier la réponse"] {
+    position: absolute
+}
+
+.touch button.Button.hasIcon[title="+
+ article"]{position:absolute;top:59px;z-index:10000;right:4px;width:37px;box-shadow:-2px 2px 0px 1px #324763 !important}.touch ul.Dropdown-menu.dropdown-menu i.icon.fas.Button-icon{margin-left:1px !important}.touch
+ .fc-scroller-harness.fc-scroller-harness-liquid {
+    height: 382px !important
+}
+
+.touch button.fc-today-button.fc-button.fc-button-primary {
+    position: absolute;
+    top: 38px;
+    right: 8px;
+    z-index: 10000
+}
+
+li.item-preview {
+    display: none
+}
+
+.touch li.App-primaryControl.item-submit {
+    right: 50px
+}
+
+.touch ul.TextEditor-controls.Composer-footer {
+    margin-left: 56px
+}
+
+.touch li.item-fof-upload-media {
+    position: absolute;
+    left: 6px
+}
+
+.touch li.item-fof-upload {
+    position: absolute;
+    left: 44px
+}
+
+.touch button.Button.Button--icon.Button--link.hasIcon.GuiImage {
+    display: none
+}
+
+.touch button.Button.Button--icon.Button--link.hasIcon.GuiLink {
+    display: none
+}
+
+.touch span[aria-label="Contrôles supplémentaires"] {
+    display: none !important
+}
+
+.touch button.Button.Button--icon.Button--link.hasIcon[aria-label="Mentionner un utilisateur ou un message"] {
+    margin-left: -30px
+}
+
+span[aria-label="Ajouter une image"] {
+    display: none !important
+}
+
+button.Button.Button--icon.Button--link.CommandButton[aria-label="Liste à  puces
+ <shift-ctrl-8>"]{margin-left:-26px}.no-touch .Post-body img,.Post-body iframe{max-width:40%}.touch .AfruxWidgets-Widget.Afrux-NewsWidget{position:absolute;top:57px;left:0px}.touch .App--index
+ #content {
+    padding-top: 78px
+}
+
+li.item-refresh {
+    display: none
+}
+
+.touch .sideNavContainer .item-language li .hasIcon span {
+    display: block !important
+}
+
+.touch .sideNavContainer .item-language li .hasIcon span {
+    display: block !important;
+    margin-left: -10px
+}
+
+.touch button.hasIcon[title="Toutes les langues"] {
+    margin-left: -19px
+}
+
+.touch li.item-excerpt {
+    display: block;
+    font-size: 7px
+}
+
+.no-touch li.item-excerpt {
+    font-size: 12px;
+    font-family: courier
+}
+
+li.item-following {
+    display: none
+}
+
+.fc-daygrid-dot-event .fc-event-title {
+    font-weight: normal !important;
+    font-size: 10px
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+    background-color: #8f105647 !important
+}
+
+a.fc-daygrid-event {
+    white-space: normal
+}
+
+.fc-daygrid-event-dot {
+    display: none !important
+}
+
+.DiscussionListItem-content.Slidable-content.unread .DiscussionListItem-title {
+    filter: url('#wavy')
 }
