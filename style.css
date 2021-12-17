@@ -747,8 +747,8 @@ div#chat-panel {
     width: 523px !important;
 }
 
-i.fas.fa-cog {
-    color: #86547d !important;
+#chat i.fas.fa-cog {
+    color: #896382 !important;
     margin-left: 15px;
 }
 
@@ -768,3 +768,8 @@ i.fas.fa-cog {
 .AfruxWidgets-Widget-content {
     background: #0f1331;
 }
+
+span.Avatar.PostUser-avatar {
+    transform: scale(0.8);
+}
+
