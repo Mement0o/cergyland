@@ -15,7 +15,7 @@ li.item-chatItem {
 body {
     font-family: nintendo;
     font-size: 10px;
-    /* filter: hue-rotate(-346deg); */
+    background: #041024;
 }
 
 @font-face{font-family:nintendo;src:url(/fonts/dogica.otf)}
@@ -118,6 +118,8 @@ button.Button.Button--primary.PollModal-SubmitButton.hasIcon {
 
 header#header {
     box-shadow: none;
+    background: #041024;
+    box-shadow: 0px 1px 7px 3px #041024;
 }
 
 
@@ -223,9 +225,9 @@ h3.FlarumBlog-Article-Title {
 li.TagCategory.SubCategory {
     width: fit-content;
 }
-.DiscussionListItem-content.Slidable-content {border: 2px #607083;border-style: dashed;border-radius: 24px;margin-bottom: 15px;margin-top: 15px;background: #1e2936eb;}
+.DiscussionListItem-content.Slidable-content {border: 2px #607083;border-style: dashed;border-radius: 24px;margin-bottom: 15px;margin-top: 15px;background: #102134eb;}
 
-.DiscussionListItem-content.Slidable-content.read {border: 2px #14191f dashed !important;}
+.DiscussionListItem-content.Slidable-content.read {border: 2px #0a0f2f dashed !important;}
 
 li.item-discussion-language {
     display: none;
@@ -358,7 +360,7 @@ ul.Dropdown-menu.dropdown-menu.Dropdown-menu--top {
 
 
 .DiscussionListItem-author img.Avatar {
-    display: none;
+    /* display: none; */
 }
 
 .Post-body {
@@ -762,3 +764,7 @@ i.fas.fa-cog {
 }
 
 .panel-preview.active {}
+
+.AfruxWidgets-Widget-content {
+    background: #0f1331;
+}
