@@ -121,8 +121,8 @@ header#header {
 }
 
 
-li.item-allDiscussions {
-    display: none;
+li.item-allDiscussions a {
+    color: #ffce92 !important;
 }
 
 button[title~='accueil'] {
@@ -645,7 +645,7 @@ div#chat {
 
 
 .panel-preview {
-    background-color: red !important;
+    /* background-color: red !important; */
 }
 
 .ChatList:hover .panel-preview {
@@ -657,12 +657,11 @@ div#chat {
 }
 
 .ChatList .panel-add:before {
-    color: grey !important;
+    color: #2c2c2c !important;
 }
 
 .ChatList .panel-preview{
     opacity: 0.5;
-    /* box-shadow: 0 0 0 1px #9d3a64 !important; */
 }
 
 .ChatList .panel-preview:hover {
@@ -688,14 +687,14 @@ div#chat {
 }
 
 .ChatList .panel-preview.active {
-    /* box-shadow: 0px 0px 0px 1px #ff4593; */
+    box-shadow: 0px 0px 0px 2px #ff4593;
 }
 
 .icon[data-title="Maximiser"] {
     position: absolute !important;
     right: 81px !important;
     top: 0px  !important;
-    padding-left: 450px !important;
+    padding-left: 440px !important;
 }
 
 .icon[data-title="Minimiser"] {
@@ -718,3 +717,48 @@ textarea#chat-input {
 .ChatHeader i.fas.fa-cloud-sun {
     margin-right: 15px !important;
 }
+
+li.item-following {
+    display: none;
+}
+
+.active a {
+}
+
+li.item-privateDiscussions a {
+    color: #fc5c5c !important;
+}
+
+li.item-events a {
+    color: #6eadfa !important;
+}
+
+li.item-blog a {
+    color: #43cdae !important;
+}
+
+li.item-categories a {
+    color: #af68c7 !important;
+}
+
+div#chat-panel {
+    width: 523px !important;
+}
+
+i.fas.fa-cog {
+    color: #86547d !important;
+    margin-left: 15px;
+}
+
+
+
+.message-wrapper {
+    margin-top: 14px;
+    margin-right: 15px;
+}
+
+.ChatInput.input-wrapper {
+    padding-top: 22px;
+}
+
+.panel-preview.active {}
