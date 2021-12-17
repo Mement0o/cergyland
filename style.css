@@ -617,3 +617,104 @@ div#alerts {
 .active i.icon.fas {
     color: #3988ff;
 }
+
+div#chat {
+    font-family: monospace !important;
+    background: #02080f !important;
+    color: white !important;
+    font-size: 13px !important;
+}
+
+.toolbar a.name {
+    color: #56a9ff !important;
+}
+
+.ChatHeader {
+    cursor: move;
+    background-color: #370f30 !important;
+}
+
+.ChatList .header {
+    background-color: #370f30 !important;
+}
+
+.ChatList {
+    background-color: #000000 !important;
+}
+
+
+
+.panel-preview {
+    background-color: red !important;
+}
+
+.ChatList:hover .panel-preview {
+    background: black !important;
+}
+
+.panel-add {
+    background-color: #02080f !important;
+}
+
+.ChatList .panel-add:before {
+    color: grey !important;
+}
+
+.ChatList .panel-preview{
+    opacity: 0.5;
+    /* box-shadow: 0 0 0 1px #9d3a64 !important; */
+}
+
+.ChatList .panel-preview:hover {
+    opacity: 1;
+}
+
+.ToggleButton.icon.icon-toggle {
+    display: none;
+}
+
+.ChatList .input-wrapper #chat-find {
+    background-color: black !important;
+    color: white !important;
+    cursor: text !important;
+}
+
+.ChatList .input-wrapper {
+    background-color: black !important;
+}
+
+.ChatList .panel-preview .avatar {
+    transform: scale(0.9);
+}
+
+.ChatList .panel-preview.active {
+    /* box-shadow: 0px 0px 0px 1px #ff4593; */
+}
+
+.icon[data-title="Maximiser"] {
+    position: absolute !important;
+    right: 81px !important;
+    top: 0px  !important;
+    padding-left: 450px !important;
+}
+
+.icon[data-title="Minimiser"] {
+    position: absolute !important;
+    right: 61px  !important;
+}
+
+textarea#chat-input {
+    background-color: #151515 !important;
+    color: white !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    margin-bottom: 10px !important;
+}
+
+.ChatInput .icon.send {
+    margin-top: 6px !important;
+}
+
+.ChatHeader i.fas.fa-cloud-sun {
+    margin-right: 15px !important;
+}
