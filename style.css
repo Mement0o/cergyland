@@ -20,6 +20,8 @@ body {
 
 @font-face{font-family:nintendo;src:url(/fonts/dogica.otf)}
 
+
+
 li.TagTile {
     background-color: white !important;
     height: 84px !important;
@@ -123,9 +125,6 @@ header#header {
 }
 
 
-li.item-allDiscussions a {
-    color: #ffce92 !important;
-}
 
 button[title~='accueil'] {
     display: none !important;
@@ -322,7 +321,6 @@ body.touch a.TagCategory-content {
 
 body.touch .TagCategory-alignEnd {
     margin: 0;
-    display: none !important;
 }
 
 body.touch .container {
@@ -363,9 +361,13 @@ ul.Dropdown-menu.dropdown-menu.Dropdown-menu--top {
     /* display: none; */
 }
 
-.Post-body {
-    font-family: courier;
-}
+
+@font-face{font-family:monolisa;src:url(/fonts/MonoLisa-Regular.ttf)}
+@font-face{font-family:SpaceMono;src:url(/fonts/SpaceMono-Regular.ttf)}
+
+
+.Post-body {font-family: SpaceMono, monospace;}
+
 
 li.item-edited {
     display: none !important;
@@ -567,6 +569,7 @@ div#alerts {
 }
 
 .touch .Dropdown .Dropdown-menu>.active>a {
+    color: #b937af !important;
     background: none  !important;
 }
 
@@ -616,9 +619,7 @@ div#alerts {
     display: none;
 }
 
-.active i.icon.fas {
-    color: #3988ff;
-}
+
 
 div#chat {
     font-family: monospace !important;
@@ -727,23 +728,23 @@ li.item-following {
 .active a {
 }
 
-li.item-privateDiscussions a {
+.no-touch li.item-privateDiscussions a {
     color: #fc5c5c !important;
 }
 
-li.item-events a {
+.no-touch li.item-events a {
     color: #6eadfa !important;
 }
 
-li.item-blog a {
+.no-touch li.item-blog a {
     color: #43cdae !important;
 }
 
-li.item-categories a {
+.no-touch li.item-categories a {
     color: #af68c7 !important;
 }
 
-div#chat-panel {
+.no-touch div#chat-panel {
     width: 523px !important;
 }
 
@@ -773,3 +774,16 @@ span.Avatar.PostUser-avatar {
     transform: scale(0.8);
 }
 
+
+
+.no-touch .Post-body {
+    font-size: 15px;
+}
+
+div#chat {
+    display: none;
+}
+
+.LastDiscussion-avatar {
+    display: block !important; 
+}
