@@ -224,9 +224,6 @@ h3.FlarumBlog-Article-Title {
 
 .SubCategory {}
 
-li.TagCategory.SubCategory {
-    width: fit-content;
-}
 
 .DiscussionListItem-content.Slidable-content{
     border-radius: 24px;
@@ -576,7 +573,7 @@ div#alerts {
     position: fixed;
     left: 50px;
     top: 2px;
-    z-index: 10000;
+    z-index: 1000;
 }
 
 .touch .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount12 {
@@ -612,7 +609,7 @@ div#alerts {
 }
 
 .touch .Dropdown .Dropdown-menu>.active>a {
-    color: #b937af !important;
+    color: #007eff !important;
     background: none  !important;
 }
 
@@ -853,9 +850,9 @@ button.Button.Button--block.DiscussionList-update {
   }
 }
 
-li.active a {font-weight: normal !important;border: 1px dashed;border-radius: 10px;margin-left: -16px;padding-left: 44px !important;}
+.no-touch li.active a {font-weight: normal !important;border: 1px dashed;border-radius: 10px;margin-left: -16px;padding-left: 44px !important;}
 
-.item-allDiscussions a {color: #f3d95d !important;}
+.no-touch .item-allDiscussions a {color: #f3d95d !important;}
 
 .no-touch i.icon.far.fa-comments.Button-icon {
     color: #f3d95d !important;
@@ -866,7 +863,7 @@ li.active a {font-weight: normal !important;border: 1px dashed;border-radius: 10
     flex-direction: column-reverse;
 }
 
-.sideNav a.hasIcon:hover {
+.no-touch .sideNav a.hasIcon:hover {
     border: 1px dashed;
     border-radius: 10px;
     margin-left: -16px;
@@ -885,3 +882,114 @@ span.NotificationsDropdown-unread {
     background: #c43c81;
 }
 
+.TagCategory-content-accueil .TagCategory-alignEnd, .TagCategory-content-events .TagCategory-alignEnd, .TagCategory-content-autour-de-cergy .TagCategory-alignEnd, .TagCategory-content-entraides .TagCategory-alignEnd, .TagCategory-content-organisation .TagCategory-alignEnd {
+    display: none !important;
+}
+
+.TagCategory-description {
+    font-size: 8px !important;
+}
+
+.touch a.LastDiscussion-avatar {
+    transform: scale(0.8);
+    margin-left: -5px;
+    margin-right: 6px;
+}
+
+
+.LastDiscussion-bottomRow, .TagCategory.SubCategory .LastDiscussion .LastDiscussion-bottomRow .LastDiscussion-usernameLink {
+    color: #5c77a8 !important;
+}
+
+.LastDiscussion-topRow {
+    color: red;
+}
+
+.touch main.App-content {
+    background: #041024;
+}
+
+div#app-navigation {
+    background: #041024;
+}
+
+.touch div#drawer {
+    background: #041024;
+}
+
+.touch span.NotificationsDropdown-unread {
+    top: -212px;
+    left: 275px;
+    pointer-events: none;
+}
+
+.touch .paneShowing span.NotificationsDropdown-unread {
+    top: 2px;
+    left: 18px;
+    pointer-events: none;
+}
+
+
+.touch div#drawer {
+    visibility: visible;
+}
+
+td.fc-daygrid-day.fc-day.fc-day-mon.fc-day-today {
+    background-color: #c43c811f;
+    border: 2px dashed #c43c81;
+}
+
+td.fc-daygrid-day.fc-day.fc-day-mon.fc-day-today {
+    background-color: #c43c811f;
+    border: 2px dashed #c43c81;
+}
+
+.flatpickr-calendar.hasTime.rangeMode.animate.inline {
+    font-family: monospace;
+    filter: invert(1) opacity(0.7) hue-rotate(-72deg);
+    margin-top: 19px;
+}
+
+td.fc-daygrid-day:hover {
+    background: #102b59;
+    cursor: pointer;
+}
+
+.fc-event-title:hover {
+    color: white;
+}
+
+.fc-list-day-cushion.fc-cell-shaded {
+    background: black;
+}
+
+
+
+.fc .fc-list-event:hover td {
+    background: #213e6f;
+}
+
+table.fc-list-table tbody {
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+table.fc-list-table tr {
+    display: inline-table;
+}
+
+
+button.fc-button-active {
+    background: #c43c81 !important;
+}
+
+
+
+.fc-theme-standard td, .fc-theme-standard th {
+    border: none !important;
+}
+
+.fc-list-day-cushion.fc-cell-shaded {
+    border-bottom: 1px solid;
+    background: #041024;
+}
