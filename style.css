@@ -107,6 +107,7 @@ article.CommentPost.Post--hidden {
 button.Button.Button--primary.PollModal-SubmitButton.hasIcon {
     text-transform: capitalize;
     font-size: 13px;
+    box-shadow: #28394f 3px 2px 0px 2px;
 }
 
 .fc-event-time {
@@ -148,8 +149,10 @@ button[title~='Popularité'] {
 
 
 
+
+
 .App.BlogOverviewPage {
-    background: none;
+    background: transparent !important;
 }
 
 .Badge.Badge--private {
@@ -224,9 +227,29 @@ h3.FlarumBlog-Article-Title {
 li.TagCategory.SubCategory {
     width: fit-content;
 }
-.DiscussionListItem-content.Slidable-content {border: 2px #607083;border-style: dashed;border-radius: 24px;margin-bottom: 15px;margin-top: 15px;background: #102134eb;}
 
-.DiscussionListItem-content.Slidable-content.read {border: 2px #0a0f2f dashed !important;}
+.DiscussionListItem-content.Slidable-content{
+    border-radius: 24px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background: #102134eb;
+}
+
+.DiscussionListItem-content.Slidable-content.unread {
+    border: 2px #041024 dashed;
+    background: #550c45;
+}
+
+.DiscussionListItem-content.Slidable-content.read {
+    border: 2px #0a0f2f dashed !important;
+}
+
+body.touch .DiscussionListItem-content.Slidable-content.read {
+    margin-left: 7px;
+    margin-right: 7px;
+    border-radius: 5px;
+}
+
 
 li.item-discussion-language {
     display: none;
@@ -272,7 +295,7 @@ div#box {max-width: 222px;line-break: anywhere;}
     margin-right: 19px;
 }
 
-.TagCategory-content-accueil, .TagCategory-content-events, .TagCategory-content-autour-de-cergy, .TagCategory-content-entraides, .TagCategory-content-organisation-r-flexions {
+.TagCategory-content-accueil, .TagCategory-content-events, .TagCategory-content-autour-de-cergy, .TagCategory-content-entraides, .TagCategory-content-organisation{
     pointer-events: none;
     box-shadow: -2px 2px 0px 2px #324763 !important;
 }
@@ -282,13 +305,44 @@ a.TagCategory-content.TagCategory-content-blog {
 }
 
 .TagCategory.SubCategory .TagCategory-content {
+    background-color: #0f1c33 !important;
     box-shadow: none;
-    background: #ffffff00;
 }
 
 .LastDiscussion-userCardContainer {
     display: none !important;
 }
+
+
+.BlogForumNav.BlogSideWidget {
+    position: absolute;
+    left: 26px;
+    top: 108px;
+}
+
+.BlogForumNav h3 {
+    display: none;
+}
+
+.BlogSideWidget .sideNav li[class^="item-tag"] {
+  display:none;
+}
+
+.ul.Dropdown-menu.dropdown-menu {}
+
+.BlogForumNav.BlogSideWidget {
+    background: none;
+    box-shadow: none;
+}
+
+.no-touch .BlogFeatured-list {
+    /* flex-direction: column; */
+    position: absolute;
+    left: 275px;
+    top: 162px;
+}
+
+
 
 .Button--primary {
     color: white;
@@ -332,11 +386,6 @@ body.touch .TagCategory-alignStart {
 }
 
 
-body.touch .DiscussionListItem-content.Slidable-content.read {
-    margin-left: 7px;
-    margin-right: 7px;
-    border-radius: 5px;
-}
 
 body.touch .IndexPage-toolbar {
     margin-left: -7px;
@@ -461,9 +510,6 @@ article.Post.CommentPost.editing {
     font-family: courier;
 }
 
-.App.BlogOverviewPage {
-    background: #14191f;
-}
 
 .FlarumBlogOverview .BlogOverviewButtons .Button.hasIcon {
     box-shadow: -3px 3px 0px 2px #324763;
@@ -471,9 +517,6 @@ article.Post.CommentPost.editing {
     color: white;
 }
 
-.App.BlogOverviewPage {
-    background: #14191f !important;
-}
 
 .FlarumBlogOverview .BlogOverviewButtons .Button.hasIcon {
     box-shadow: -3px 3px 0px 2px #324763;
@@ -787,3 +830,58 @@ div#chat {
 .LastDiscussion-avatar {
     display: block !important; 
 }
+
+.Post-actions {
+    opacity: 1 !important;
+}
+
+button.Button.Button--block.DiscussionList-update {
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border: 1px dashed #fca943;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+li.active a {font-weight: normal !important;border: 1px dashed;border-radius: 10px;margin-left: -16px;padding-left: 44px !important;}
+
+.item-allDiscussions a {color: #f3d95d !important;}
+
+.no-touch i.icon.far.fa-comments.Button-icon {
+    color: #f3d95d !important;
+}
+
+.BlogForumNav ul.Dropdown-menu.dropdown-menu {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.sideNav a.hasIcon:hover {
+    border: 1px dashed;
+    border-radius: 10px;
+    margin-left: -16px;
+    padding-left: 44px !important;
+}
+
+li.TagCategory.TagCategory-priv-e.ParentCategory {
+    display: none;
+}
+
+li.TagCategory.TagCategory-public.ParentCategory {
+    display: none;
+}
+
+span.NotificationsDropdown-unread {
+    background: #c43c81;
+}
+
