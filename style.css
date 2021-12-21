@@ -288,9 +288,7 @@ div#box {max-width: 222px;line-break: anywhere;}
     /* padding-left: 52px; */
 }
 
-.ButtonGroup.Dropdown.dropdown.DiscussionListItem-controls.itemCount12 {
-    margin-right: 19px;
-}
+
 
 .TagCategory-content-accueil, .TagCategory-content-events, .TagCategory-content-autour-de-cergy, .TagCategory-content-entraides, .TagCategory-content-organisation{
     pointer-events: none;
@@ -936,13 +934,9 @@ div#app-navigation {
 
 td.fc-daygrid-day.fc-day.fc-day-mon.fc-day-today {
     background-color: #c43c811f;
-    border: 2px dashed #c43c81;
+    border: 2px dashed #c43c81 !important;
 }
 
-td.fc-daygrid-day.fc-day.fc-day-mon.fc-day-today {
-    background-color: #c43c811f;
-    border: 2px dashed #c43c81;
-}
 
 .flatpickr-calendar.hasTime.rangeMode.animate.inline {
     font-family: monospace;
@@ -966,7 +960,7 @@ td.fc-daygrid-day:hover {
 
 
 .fc .fc-list-event:hover td {
-    background: #213e6f;
+    background: #213e6f !important;
 }
 
 table.fc-list-table tbody {
@@ -991,5 +985,143 @@ button.fc-button-active {
 
 .fc-list-day-cushion.fc-cell-shaded {
     border-bottom: 1px solid;
+    background: #041024 !important;
+}
+
+td.fc-daygrid-day:hover {
+    background: #102b59;
+    cursor: pointer;
+}
+
+.fc-event-title:hover {
+    color: white;
+}
+
+
+
+.fc .fc-list-event:hover td {
+    background: #213e6f;
+}
+
+table.fc-list-table tbody {
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+table.fc-list-table tr {
+    display: inline-table;
+}
+
+
+button.fc-button-active {
+    background: #c43c81 !important;
+}
+
+
+
+ .fc-theme-standard td, .fc-theme-standard th {
+    border: none !important;
+}
+
+
+.fc-list-day-cushion.fc-cell-shaded {
+    border-bottom: 1px solid;
     background: #041024;
+}
+
+.fc-daygrid .fc-theme-standard td, .fc-daygrid .fc-theme-standard th {
+    border: 1px solid white;
+}
+
+.fc-daygrid td, .fc-daygrid th {
+    border: 1px solid white !important;
+}
+
+input.FormControl {
+    color: white !important;
+}
+
+button[title="Publier la discussion"] span.Button-label {
+    font-family: monospace;
+}
+
+input.FormControl {
+    color: white !important;
+}
+
+button[title="Publier la discussion"] span.Button-label {
+    font-family: monospace;
+}
+
+ul.ComposerBody-header h3 {
+    color: #569cff !important;
+}
+
+.ButtonGroup.Dropdown.dropdown.DiscussionListItem-controls.itemCount11 {
+    margin-right: 19px;
+    
+}
+
+h1.Header-title {
+    pointer-events: none;
+    user-select: none;
+}
+
+li.App-primaryControl.item-subscription {display: none;}
+
+.tooltip {
+    font-size: 10px;
+}
+
+i.icon.fas.fa-map.Badge-icon {
+    text-shadow: 0px 0px 9px #ff00e0;
+}
+
+.touch .item-session ul.Dropdown-menu.dropdown-menu span {
+    display: block !important;
+    width: 300px;
+    margin-left: 29px;
+}
+
+.item-session li.item-profile {
+    width: 300px;
+}
+
+.touch .item-session ul.Dropdown-menu.dropdown-menu li {
+    margin: 20px;
+    width: 300px;
+}
+
+.touch .Dropdown .Dropdown-menu>li>a, .touch .Dropdown .Dropdown-menu>li>button {
+    background: none;
+}
+
+.touch .item-nav .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount8 {
+    box-shadow: none;
+    background: none;
+    border-radius: 0px;
+    margin-top: 0px;
+}
+
+.touch .item-nav i.icon {
+    width: 20px !important;
+}
+
+
+
+.touch li.item-edit {
+    width: 300px !important;
+}
+
+.item-edit span.Button-label {
+    display: block !important;
+    margin-left: 41px;
+}
+
+ol.TagCategory-subTagList {
+    margin-left: -31px;
+}
+
+main.App-content {
+    background: none !important;
 }
