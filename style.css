@@ -1104,7 +1104,8 @@ i.icon.fas.fa-map.Badge-icon {
 }
 
 .touch .item-nav i.icon {
-    width: 20px !important;
+    font-size: 18px !important;
+    width: 30px !important;
 }
 
 
@@ -1124,4 +1125,27 @@ ol.TagCategory-subTagList {
 
 main.App-content {
     background: none !important;
+}
+
+.touch .item-nav ul.Dropdown-menu.dropdown-menu {
+    width: 300px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.touch .item-nav li {
+    width: 100px !important;
+}
+
+.item-nav .itemCount13 {
+    left: 42%;
+}
+
+.touch .fc-view-harness.fc-view-harness-active {
+    padding-bottom:  0 !important;
+    height: 294px;
+}
+
+button.fc-today-button.fc-button.fc-button-primary {
+    display: none;
 }
