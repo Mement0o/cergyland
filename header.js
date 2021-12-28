@@ -3,28 +3,28 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
 
- var oldLocation = location.href;
- setInterval(function() {
-      if(location.href != oldLocation) {
-       if(!$('.item-nav .item-collectif').length){
-         $(".item-collectif").clone().prependTo(".item-nav ul.Dropdown-menu.dropdown-menu");
-         $(".item-nav .item-collectif").show();
-       }
-      }
-  }, 1000); 
-
 
 
 setTimeout(function(){
-  $(".item-collectif").clone().prependTo(".item-nav ul.Dropdown-menu.dropdown-menu");
-  $(".item-nav .item-collectif").show();
- 
-$(".item-collectif").click(function() {
-  $("li.TagCategory.ParentCategory:not(.TagCategory-collectif-feministe)").hide(); 
-  $("li.active").removeClass("active");
-  $(".item-collectif").addClass("active");
-});
+
+
+
+ setInterval(function(){
+
+  if(!$(".item-nav .item-collectif").length){
+   $(".item-collectif").clone().prependTo(".item-nav ul.Dropdown-menu.dropdown-menu");
+   $(".item-nav .item-collectif").show();
+  }
+
+  $(".item-nav .item-collectif").click(function() {
+   $("li.TagCategory.ParentCategory:not(.TagCategory-collectif-feministe)").hide(); 
+   $("li.active").removeClass("active");
+   $(".item-collectif").addClass("active");
+  });
+
+ }, 1000);
 }, 500);
+
 
 
 
