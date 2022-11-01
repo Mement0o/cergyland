@@ -145,9 +145,9 @@ button[title~='Popularité'] {
 
 .no-touch .Hero .container {
     position: absolute;
-    top: 67px;
+    top: 70px;
     right: 0;
-    width: fit-content;
+    width: 55%;
 }
 
 .item-nav li[class^="item-tag"] {
@@ -235,8 +235,8 @@ h3.FlarumBlog-Article-Title {
 
 .DiscussionListItem-content.Slidable-content{
     border-radius: 24px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    /* margin-bottom: 15px; */
+    /* margin-top: 15px; */
     /* background: #002147eb; */
 }
 
@@ -274,7 +274,7 @@ a.DiscussionListItem-author {
 ul.DiscussionListItem-info {
     font-size: 9px;
     margin-top: 11px;
-    color: #ffffff !important;
+    color: #ffffff70 !important;
 }
 
 .Afrux-NewsWidget .AfruxWidgets-Widget-content {
@@ -368,8 +368,15 @@ a.TagCategory-content {
 }
 
 h3.DiscussionListItem-title {
-    color: white !important;
-    /* text-shadow: 1px 0 0 #14191f, -1px 0 0 #14191f, 0 2px 0 #14191f, 0 0px 0 #14191f, 1px 1px #14191f, -1px -1px 0 #14191f, 1px -1px 0 #14191f, -1px 1px 0 #14191f; */
+    color: black !important;
+    font-size: 12px;
+    margin: 0px !important;
+    background: white;
+    border: 3px #dbdbdb ridge;
+    padding: 9px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 body.touch a.TagCategory-content {
@@ -459,15 +466,17 @@ span.TagLabel-text {
 
 .DiscussionListItem {
     border-radius: 0px;
-    border: 4px white ridge;
+    /* border: 5px #5c537c ridge; */
+    /* background: #000000; */
+    margin-top: 20px;
 }
 
 .DiscussionListItem:hover {
-    background: none;
+    background: transparent;
 }
 
 .DiscussionListItem-content.Slidable-content.read:hover {
-    /* background: #242c37; */
+    background: transparent;
 }
 
 .DiscussionListItem-info li.item-tags {
@@ -1243,7 +1252,7 @@ a.Button.Navigation-back.Button--icon.hasIcon:hover {
 .DiscussionListItem-info .item-excerpt {
     font-size: 14px !important;
     font-family: monospace !important;
-    color: #ffffff9e !important;
+    color: #ffffff70 !important;
 }
 
 
@@ -1529,12 +1538,14 @@ span.TagCategory-icon {
 .Button {
     color: white;
     font-size: 9px;
+    border-radius: 0px;
+    background: transparent;
 }
 
 img#banner {
     position: absolute;
     top: 0;
-    width: 554px;
+    width: 40%;
     border-bottom: 2px dashed;
     border-right: 2px dashed;
     border-color: #27213c;
@@ -1543,7 +1554,7 @@ img#banner {
 img#computer {
     position: absolute;
     width: 132px;
-    top: 484px;
+    top: 532px;
     left: 73px;
 }
 
