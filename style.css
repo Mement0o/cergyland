@@ -284,14 +284,11 @@ div#box {max-width: 222px;line-break: anywhere;}
 
 
 
-.container {
-    /* padding-left: 52px; */
-}
 
 
 
-.TagCategory-content-accueil, .TagCategory-content-events, .TagCategory-content-autour-de-cergy, .TagCategory-content-entraides, .TagCategory-content-organisation, .TagCategory-content-collectif-feministe{
-    pointer-events: none;
+.TagCategory-content-welcome, .TagCategory-content-events, .TagCategory-content-autour-de-cergy, .TagCategory-content-entraides, .TagCategory-content-organisation, .TagCategory-content-collectif-feministe, .TagCategory-content-revue-show, .TagCategory-content-music{
+   pointer-events: none; 
     box-shadow: -2px 2px 0px 2px #324763 !important;
 }
 
@@ -368,6 +365,15 @@ h3.DiscussionListItem-title {
 body.touch a.TagCategory-content {
     border-radius: 10px !important;
 }
+
+
+
+
+.touch .ParentCategory span.TagCategory-icon {
+    font-size: 8px !important;
+    padding-right: 8px;
+}
+
 
 body.touch .TagCategory-alignEnd {
     margin: 0;
@@ -761,24 +767,18 @@ li.item-following {
 .active a {
 }
 
-.no-touch li.item-privateDiscussions a {
-    color: #fc5c5c !important;
-}
 
-.no-touch li.item-events a {
-    color: #6eadfa !important;
-}
-
-.no-touch li.item-blog a {
-    color: #43cdae !important;
-}
-
-.no-touch li.item-categories a {
-    color: #af68c7 !important;
-}
 
 .no-touch div#chat-panel {
     width: 523px !important;
+}
+
+div.NeonChatFrame:not(.hidden) {
+    min-height: 250px;
+}
+
+.panel-preview .message {
+   margin-top: 25px;
 }
 
 #chat i.fas.fa-cog {
@@ -813,10 +813,6 @@ span.Avatar.PostUser-avatar {
     font-size: 15px;
 }
 
-div#chat {
-    display: none;
-}
-
 .LastDiscussion-avatar {
     display: block !important; 
 }
@@ -845,7 +841,7 @@ button.Button.Button--block.DiscussionList-update {
 
 .no-touch li.active a {font-weight: normal !important;border: 1px dashed;border-radius: 10px;margin-left: -16px;padding-left: 44px !important;}
 
-.no-touch .item-allDiscussions a {color: #f3d95d !important;}
+
 
 .no-touch i.icon.far.fa-comments.Button-icon {
     color: #f3d95d !important;
@@ -875,7 +871,7 @@ span.NotificationsDropdown-unread {
     background: #c43c81;
 }
 
-.TagCategory-content-accueil .TagCategory-alignEnd, .TagCategory-content-events .TagCategory-alignEnd, .TagCategory-content-autour-de-cergy .TagCategory-alignEnd, .TagCategory-content-entraides .TagCategory-alignEnd, .TagCategory-content-organisation .TagCategory-alignEnd, .TagCategory-content-collectif-feministe .TagCategory-alignEnd {
+.TagCategory-content-welcome .TagCategory-alignEnd, .TagCategory-content-events .TagCategory-alignEnd, .TagCategory-content-autour-de-cergy .TagCategory-alignEnd, .TagCategory-content-entraides .TagCategory-alignEnd, .TagCategory-content-organisation .TagCategory-alignEnd, .TagCategory-content-collectif-feministe .TagCategory-alignEnd,.TagCategory-content-music .TagCategory-alignEnd, .TagCategory-content-revue-show .TagCategory-alignEnd {
     display: none !important;
 }
 
@@ -884,9 +880,10 @@ span.NotificationsDropdown-unread {
 }
 
 .TagCategory-description {
-    font-size: 8px !important;
+    font-size: 11px !important;
     color: #4d698e !important;
     margin-top: 13px !important;
+    display: none;
 }
 
 .touch a.LastDiscussion-avatar {
@@ -935,15 +932,18 @@ div#app-navigation {
     visibility: visible;
 }
 
-td.fc-daygrid-day.fc-day.fc-day-mon.fc-day-today {
-    background-color: #c43c811f;
-    border: 2px dashed #c43c81 !important;
+
+
+
+.fc-daygrid td:not(.fc-day-today), .fc-daygrid th {
+    border: 1px solid white !important;
 }
+
 
 
 .flatpickr-calendar.hasTime.rangeMode.animate.inline {
     font-family: monospace;
-    filter: invert(1) opacity(0.7) hue-rotate(-72deg);
+    filter: invert(1) hue-rotate(-72deg);
     margin-top: 19px;
 }
 
@@ -982,9 +982,7 @@ button.fc-button-active {
 
 
 
-.fc-theme-standard td, .fc-theme-standard th {
-    border: none !important;
-}
+
 
 .fc-list-day-cushion.fc-cell-shaded {
     border-bottom: 1px solid;
@@ -1021,12 +1019,6 @@ button.fc-button-active {
 }
 
 
-
- .fc-theme-standard td, .fc-theme-standard th {
-    border: none !important;
-}
-
-
 .fc-list-day-cushion.fc-cell-shaded {
     border-bottom: 1px solid;
     background: #041024;
@@ -1036,9 +1028,6 @@ button.fc-button-active {
     border: 1px solid white;
 }
 
-.fc-daygrid td, .fc-daygrid th {
-    border: 1px solid white !important;
-}
 
 input.FormControl {
     color: white !important;
@@ -1066,7 +1055,7 @@ ul.ComposerBody-header h3 {
 }
 
 h1.Header-title {
-    pointer-events: none;
+    /* pointer-events: none; */
     user-select: none;
 }
 
@@ -1076,8 +1065,9 @@ li.App-primaryControl.item-subscription {display: none;}
     font-size: 10px;
 }
 
-i.icon.fas.fa-map.Badge-icon {
+.touch i.icon.fas.fa-envelope.Badge-icon {
     text-shadow: 0px 0px 9px #ff00e0;
+     font-size: 18px;
 }
 
 .touch .item-session ul.Dropdown-menu.dropdown-menu span {
@@ -1192,6 +1182,7 @@ button.fc-today-button.fc-button.fc-button-primary {
     background: #13305e;
     padding: 6px;
     border: 2px dashed #739fe7;
+    pointer-events: none;
 }
 
 
@@ -1256,44 +1247,243 @@ a.Button.Navigation-back.Button--icon.hasIcon:hover {
 
 /* CSS POUR LE COLLECTIF FEMINISTE */
 
-.no-touch .TagCategory-collectif-feministe.ParentCategory {}
 
-a.TagCategory-content.TagCategory-content-collectif-feministe {
-    background: none;
-    box-shadow: none !important;
-}
 
-.TagCategory-collectif-feministe.ParentCategory span.TagCategory-icon {
-    display: none;
-}
 
-h4.TagCategory-name {}
-
-a.TagCategory-content.TagCategory-content-collectif-feministe .TagCategory-name {
-    font-size: 30px !important;
-    width: max-content;
-    color: #ff4cd9;
-}
 
 a.TagCategory-content.TagCategory-content-collectif-feministe .TagCategory-description {
     font-size: 24px !important;
     color: #97beff !important;
 }
 
-.TagCategory-collectif-feministe a.LastDiscussion-avatar {
-    display: none !important;
-}
-
-a.LastDiscussion-usernameLink {
-    display: none !important;
-}
 
 
-.no-touch .TagCategory-collectif-feministe .TagCategory-alignEnd {
-    padding: 8px;
-    margin: 5px;
-}
 
 li.Dropdown-separator {
     display: none;
+}
+
+.item-collectif a {
+    display: none;
+}
+
+
+
+.no-touch .item-collectif a {
+    white-space: break-spaces !important;
+    color: #505df3 !important;
+}
+
+.no-touch li.item-privateDiscussions a {
+    color: #ff4a4a !important;
+}
+
+.no-touch li.item-events a {
+    color: #32c0b9 !important;
+}
+
+.no-touch li.item-blog a {
+    color: #43cdae !important;
+}
+
+.no-touch li.item-categories a {
+    color: #ea68ce !important;
+}
+
+.no-touch .item-allDiscussions a {
+    color: #f3d95d !important;
+}
+
+
+li.item-collectif {
+    display: block !important;
+    user-select: none;
+}
+
+.touch .item-nav ul.Dropdown-menu.dropdown-menu div {
+    display: none;
+}
+
+.touch .item-nav ul.Dropdown-menu.dropdown-menu div {
+    display: none;
+}
+
+.touch .TagCategory-content-collectif-feministe h4.TagCategory-name {
+    /* width: 283px !important; */
+}
+
+.TagCategory-content-collectif-feministe .TagCategory-main {
+    /* text-align: center !important;
+    margin-left: 16px; */
+}
+
+.TagCategory-actions, .TagCategory-cercle, .TagCategory-membres, .TagCategory-reunions {
+  display: none;
+}
+
+.logged-in .TagCategory-actions, .logged-in .TagCategory-cercle, .logged-in .TagCategory-membres, .logged-in .TagCategory-reunions {
+  display: block !important;;
+}
+
+/* IFRAME CSS */
+
+
+.PageHero {
+  display: none;
+}
+.Pages-container.container {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  white-space: normal;
+  width: 100%;
+  height: 100%;
+}
+.Post-body iframe {
+  border: none;
+  height: 1200px;
+  width: 100%;
+}
+
+.App--page header {
+  /* display: none !important; */
+}
+
+.title {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    cursor: pointer;
+}
+
+div#app {
+    overflow: hidden;
+}
+
+
+p.TagCategory-toggleArrow {
+    font-size: 24px;
+}
+div#privee {
+    border-top: 2px
+ #fff dashed;
+    padding: 10px;
+    padding-top: 30px;
+    margin: 15px;
+    margin-top: 35px;
+}
+
+div#public {
+    padding: 10px;
+    margin: 15px;
+}
+
+.ouverture {
+    display: none;
+}
+
+.logged-in #app .ouverture {
+    display: block !important;
+}
+
+span.SelectTagListItem-name {
+    width: auto;
+}
+
+span.SelectTagListItem-description {
+    display: none;
+}
+
+span.SelectTagListItem-name {
+    width: auto !important;
+    font-size: 14px;
+}
+
+
+
+@media (min-width: 992px){
+.sideNav, .sideNav>ul {
+    width: 260px;
+ }
+
+}
+
+@media (min-width: 1100px){
+.container {
+    width: auto;
+ }
+}
+
+.no-touch .container {
+  margin-left: 50px;
+}
+
+.calendar .no-touch nav.IndexPage-nav.sideNav ul {
+    display: flex;
+}
+
+.calendar .no-touch  nav.IndexPage-nav.sideNav ul.Dropdown-menu {
+    flex-direction: row-reverse;
+    display: flex;
+    margin-left: 18px;
+}
+
+.calendar .no-touch .item-nav div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+@media (min-width: 992px){
+.calendar .sideNavContainer {
+    display: flex;
+        flex-direction: column;
+
+ } 
+}
+
+@media (min-width: 992px) {
+.calendar .sideNavOffset {
+    margin-top: 0px;
+ }
+}
+
+.calendar .no-touch nav.IndexPage-nav.sideNav ul.Dropdown-menu li {
+    margin-left: 14px;
+}
+
+input#startpicker {
+    pointer-events: none;
+}
+
+.fc-day-today {
+    background: #ff00b324 !important;
+    border: 2px ridge #ff00b3 !important;
+    box-shadow: 0px 0px 8px 0px inset #ff00b3;
+}
+
+.calendar .no-touch .container {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+a.fc-daygrid-event {
+    white-space: nowrap !important;
+    color: white;
+    font-size: 12px;
+}
+
+.fc-event-title {
+    white-space: pre-wrap;
+}
+
+.no-touch .item-nav .Dropdown-menu li a {
+    text-overflow: inherit;
+    white-space: pre-wrap;
+    padding-right: 30px;
+}
+
+i.icon.fas.fa-envelope.Badge-icon {
+    box-shadow: #ff0091 0px 0px 10px 5px;
 }
