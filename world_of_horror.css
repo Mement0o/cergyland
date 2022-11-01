@@ -1,0 +1,1523 @@
+h1#titleNl {
+    display: none;
+}
+
+main.App-content {
+    border: none;
+}
+
+li.item-chatItem {
+    position: absolute;
+    left: 125px;
+    bottom: 167px;
+}
+
+body {
+    font-family: DOS;
+    font-size: 10px;
+    background: #041024;
+}
+
+@font-face{font-family:nintendo;src:url(/fonts/dogica.otf)}
+@font-face{font-family:DOS;src:url(/fonts/DOS.ttf)}
+
+
+
+li.TagTile {
+    background-color: white !important;
+    height: 84px !important;
+    border: 1px solid #000;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+a.TagTile-info {
+    overflow: hidden !important;
+    color: black !important;
+    padding: 0px;
+    transition: none;
+    position: absolute;
+    margin-bottom: -42px;
+}
+
+a.TagTile-lastPostedDiscussion {
+    color: black !important;
+}
+
+a.TagTile-lastPostedDiscussion {
+    border: none;
+}
+
+h3.TagTile-name {
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 18px;
+    margin-top: 11px;
+}
+
+
+
+input.FormChat {font-size: 15px;font-family: courier;color: black;}
+
+input.FormControl {
+    font-size: 13px;
+    font-family: monospace;
+}
+
+img.Header-logo {
+    width: 154px;
+    height: 67px;
+    max-height: 100px;
+}
+
+.Flarum-Blog-Composer .ProseMirror.FormControl.Composer-flexible.TextEditor-editor.Post-body {
+    min-height: 214px;
+}
+
+header.Hero.TagHero {
+    background: transparent;
+}
+
+button.Button.Button--primary.IndexPage-newDiscussion.hasIcon {
+    font-size: 14px;
+    padding: 9px;
+    margin: 0;
+    /* box-shadow: 3px 2px 0px 2px #324763; */
+    background: white;
+    color: black;
+}
+
+span.UserOnline {
+    display: none;
+}
+
+ul.PostUser-badges.badges {
+    display: none;
+}
+
+header.Hero.DiscussionHero {
+    background: #ffffff00;
+}
+
+article.CommentPost.Post--hidden {
+    /* display: none; */
+}
+
+.App-composer {
+    bottom: 29px !important;
+}
+
+button.Button.Button--primary.PollModal-SubmitButton.hasIcon {
+    text-transform: capitalize;
+    font-size: 13px;
+    box-shadow: #28394f 3px 2px 0px 2px;
+}
+
+.fc-event-time {
+    display: none !important;
+}
+
+
+.fc-daygrid-event-dot {
+    display: none;
+}
+
+header#header {
+    box-shadow: none;
+    background: #041024;
+    box-shadow: 0px 1px 7px 3px #041024;
+}
+
+
+
+button[title~='accueil'] {
+    display: none !important;
+}
+
+
+button[title~='Popularité'] {
+    display: none !important;
+}
+
+
+
+.Hero .container {
+    padding-top: 40px;
+    padding-bottom: 11px;
+}
+
+.item-nav li[class^="item-tag"] {
+  display:none;
+}
+
+
+
+
+
+.App.BlogOverviewPage {
+    background: transparent !important;
+}
+
+.Badge.Badge--private {
+    /* display: none; */
+    background: none;
+    box-shadow: none;
+}
+
+.item-nav ul.Dropdown-menu.dropdown-menu {
+    flex-direction: column-reverse;
+    display: flex;
+}
+
+.fa-comment:before {
+    content: "\f03e";
+}
+
+.fa-map:before {
+    content: "\f075";
+}
+
+.FlarumBlog-Article-Categories {
+    display: none;
+}
+
+h3.FlarumBlog-Article-Title {
+    margin-top: 10px;
+}
+
+.FlarumBlog-Article-Post {
+    margin-top: 35px;
+}
+
+.Flarum-Blog-Composer button.Button.Button--primary.hasIcon {
+    font-size: 10px;
+}
+
+.BlogCategories.BlogSideWidget {
+    display: none;
+}
+
+.FlarumBlog-Article-PublishDate {
+    margin-bottom: 45px !important;
+}
+
+.FlarumBlog-ToolButtons {display: none;}
+
+.FlarumBlogItem {
+    margin-top: 39px;
+}
+
+.FlarumBlog-Article-Content-Edit-Dropdown {
+    z-index: 10000;
+}
+
+
+.TagCategory-stats.StatWidgetList {
+    display: none !important;
+}
+
+
+
+
+.TagCategory-alignStart {
+    max-width: 70% !important;
+}
+
+.SubCategory {
+    margin: 0 !important;
+    background: white;
+}
+
+
+.DiscussionListItem-content.Slidable-content{
+    border-radius: 24px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background: #002147eb;
+}
+
+.DiscussionListItem-content.Slidable-content.unread {
+    border: 2px #041024 dashed;
+    background: #550c45;
+}
+
+.DiscussionListItem-content.Slidable-content.read {
+    border: 2px #002147eb dashed !important;
+    user-select: none;
+}
+
+body.touch .DiscussionListItem-content.Slidable-content.read {
+    margin-left: 7px;
+    margin-right: 7px;
+    border-radius: 5px;
+}
+
+
+li.item-discussion-language {
+    display: none;
+}
+
+
+
+a.DiscussionListItem-author {
+    /* display: none; */
+}
+
+.a.TagLabel.TagLabel--child span {
+    font-size: 6px !important;
+}
+
+ul.DiscussionListItem-info {
+    font-size: 9px;
+    margin-top: 11px;
+}
+
+.Afrux-NewsWidget .AfruxWidgets-Widget-content {
+    user-select: none;
+    background: #ffde44;
+}
+
+.AfruxWidgets-Widget.hotDiscussions-widget .AfruxWidgets-Widget-content {
+    background: #3a1022;
+}
+
+.AfruxWidgets-Widget.Afrux-OnlineUsersWidget .AfruxWidgets-Widget-content {
+    background: #05081e54;
+}
+
+div#box {max-width: 222px;line-break: anywhere;}
+
+
+
+
+
+a.TagCategory-content.TagCategory-content-blog {
+    display: none;
+}
+
+.TagCategory.SubCategory .TagCategory-content {
+   /* background-color: #0f1c33 !important; */
+   background-color: transparent !important;
+   box-shadow: none !important;
+   display: flex;
+   flex-direction: column;
+   padding: 0;
+}
+
+.LastDiscussion-userCardContainer {
+    display: none !important;
+}
+
+
+.BlogForumNav.BlogSideWidget {
+    position: absolute;
+    left: 26px;
+    top: 108px;
+}
+
+.BlogForumNav h3 {
+    display: none;
+}
+
+.BlogSideWidget .sideNav li[class^="item-tag"] {
+  display:none;
+}
+
+.ul.Dropdown-menu.dropdown-menu {}
+
+.BlogForumNav.BlogSideWidget {
+    background: none;
+    box-shadow: none;
+}
+
+.no-touch .BlogFeatured-list {
+    /* flex-direction: column; */
+    position: absolute;
+    left: 275px;
+    top: 162px;
+}
+
+
+
+.Button--primary {
+    color: white;
+}
+
+.Afrux-NewsWidget {
+    color: white !important;
+}
+
+.Afrux-NewsWidget-line.Afrux-NewsWidget-line--current {
+    color: black;
+}
+
+.Afrux-NewsWidget-icon {
+    color: black;
+}
+
+a.TagCategory-content {
+    background: none !important;
+    box-shadow: none !important;
+    /* pointer-events: none; */
+    padding: 0 !important;
+}
+
+h3.DiscussionListItem-title {
+    color: white !important;
+    /* text-shadow: 1px 0 0 #14191f, -1px 0 0 #14191f, 0 2px 0 #14191f, 0 0px 0 #14191f, 1px 1px #14191f, -1px -1px 0 #14191f, 1px -1px 0 #14191f, -1px 1px 0 #14191f; */
+}
+
+body.touch a.TagCategory-content {
+    border-radius: 10px !important;
+}
+
+
+
+
+.touch .ParentCategory span.TagCategory-icon {
+    font-size: 8px !important;
+    padding-right: 8px;
+}
+
+
+body.touch .TagCategory-alignEnd {
+    margin: 0;
+}
+
+body.touch .container {
+    padding-left: 13px;
+}
+
+body.touch .TagCategory-alignStart {
+    max-width: 100% !important;
+}
+
+
+
+body.touch .IndexPage-toolbar {
+    margin-left: -7px;
+}
+
+body.touch ul.IndexPage-toolbar-action {
+    margin-top: -36px;
+}
+
+body.touch li.item-markAllAsRead {
+    display: none;
+}
+
+.dropdown-backdrop {}
+
+ul.Dropdown-menu.dropdown-menu.Dropdown-menu--top {
+    /* transition: none; */
+}
+
+
+.DiscussionListItem-author img.Avatar {
+    /* display: none; */
+}
+
+
+@font-face{font-family:monolisa;src:url(/fonts/MonoLisa-Regular.ttf)}
+@font-face{font-family:SpaceMono;src:url(/fonts/SpaceMono-Regular.ttf)}
+
+
+.Post-body {font-family: SpaceMono, monospace;}
+
+
+li.item-edited {
+    display: none !important;
+}
+
+.PostUser h3, .PostUser h3 a {
+    font-size: 11px;
+}
+
+img.Avatar.PostUser-avatar {
+    width: 48px;
+    height: 48px;
+}
+
+h2.DiscussionHero-title {
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 0 0 #14191f, -2px 0 0 #14191f, 0 2px 0 #14191f, 0 -2px 0 #14191f, 1px 1px #14191f, -1px -1px 0 #14191f, 1px -1px 0 #14191f, -1px 1px 0 #14191f;
+}
+
+a.TagLabel.TagLabel--child {}
+
+span.TagLabel-text {
+    font-size: 12px;
+    /* display: none; */
+}
+
+
+.DiscussionListItem {
+    border-radius: 20px;
+}
+
+.DiscussionListItem:hover {
+    background: none;
+}
+
+.DiscussionListItem-content.Slidable-content.read:hover {
+    /* background: #242c37; */
+}
+
+.DiscussionListItem-info li.item-tags {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 10px;
+    background: #ffffff05;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3a4451;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+:root {
+  scrollbar-color: #3a4451 #ffffff05 !important;
+  scrollbar-width: thin !important;
+}
+
+h2.Hero-title {
+    text-shadow: 2px 0 0 #14191f, -2px 0 0 #14191f, 0 2px 0 #14191f, 0 -2px 0 #14191f, 1px 1px #14191f, -1px -1px 0 #14191f, 1px -1px 0 #14191f, -1px 1px 0 #14191f;
+    color: white;
+}
+
+li.item-frontpage {
+    display: none;
+}
+
+
+
+.LastDiscussion-bottomRow {
+    word-break: break-word;
+}
+
+i.fa.fa-circle.fa-stack-2x.icon-background {
+    display: none;
+}
+
+.TagCategory.SubCategory .TagCategory-content .TagCategory-icon .CategoryIcon {
+    color: white !important;
+} 
+
+
+
+
+.App-composer {
+    font-family: courier;
+}
+
+
+.FlarumBlogOverview .BlogOverviewButtons .Button.hasIcon {
+    box-shadow: -3px 3px 0px 2px #324763;
+    background: #4d698e;
+    color: white;
+}
+
+
+.FlarumBlogOverview .BlogOverviewButtons .Button.hasIcon {
+    box-shadow: -3px 3px 0px 2px #324763;
+    background: #4d698e;
+    color: white;
+}
+
+.BlogFeatured h2 {
+    display: none;
+}
+
+p.FlarumBlog-reached-end {
+    display: none;
+}
+
+div#alerts {
+    display: none;
+}
+
+
+.touch button[aria-label="Afficher le menu déroulant de navigation"] {color: white;font-size: 10px;display: none;}
+
+
+.touch  .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount8 {
+    box-shadow: 3px 2px 0px 2px #324763;
+    background: #4d698e;
+    border-radius: 11px;
+    margin-top: 10px;
+}
+
+.touch  .darkenBackground {
+    background: #14191f;
+}
+
+.touch .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount12 {
+    /* background: #272e38; */
+    /* box-shadow: -2px 2px 0px 2px #1e252e; */
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 0 !important;
+}
+
+
+
+.touch .item-nav .Dropdown .Dropdown-menu {visibility: visible;transform: none;flex-direction: row-reverse;position: absolute;box-shadow: none;height: 57px;width: auto !important;overflow: hidden;background: none;top: 14px;}
+
+.touch :not(.item-sort) Dropdown-menu.dropdown-menu {visibility: visible;transform: none;flex-direction: row-reverse;position: absolute;box-shadow: none;height: 57px;width: auto !important;/* overflow: hidden; */background: none;top: 14px;display: flex;}
+
+.touch .item-nav ul.Dropdown-menu.dropdown-menu span {
+    display: none;
+}
+
+.touch li.item-nav {
+    width: 300px;
+    height: 50px;
+    position: fixed;
+    left: 50px;
+    top: 2px;
+    z-index: 1000;
+}
+
+.touch .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount12 {
+    width: 300px;
+    height: 50px;
+    position: absolute !important;
+    left: 100px;
+    margin-top: 0px !important;
+}
+
+
+
+.touch .scrolled .App-navigation {
+    box-shadow: none;
+}
+
+.touch .Dropdown-menu i.icon {
+    margin: 0 !important;
+}
+
+
+.touch .Dropdown-menu a.hasIcon {
+    margin: 0;
+    padding: 0 !important;
+    width: fit-content;
+}
+
+.touch li.Dropdown-separator {
+    display: none;
+}
+
+.touch .Dropdown .Dropdown-menu>.active>a {
+    color: #007eff !important;
+    background: none  !important;
+}
+
+.touch nav.IndexPage-nav.sideNav {
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    top: 2px;
+    left: 50px;
+}
+
+.touch li[class^="item-tag"] {
+  display:none;
+}
+
+.touch button.Dropdown-toggle.Button {
+    /* display: none; */
+}
+
+.touch i.icon.fas.fa-check.Button-icon span.Button-label {
+    display: block !important;
+}
+
+.touch .itemCount12 button[aria-label="Afficher le menu déroulant"] {
+    display: none;
+}
+
+.touch .sideNav ul.Dropdown-menu.dropdown-menu {
+    visibility: visible;
+    transform: none;
+    flex-direction: row-reverse;
+    position: absolute;
+    box-shadow: none;
+    height: 57px;
+    width: auto !important;
+    overflow: hidden;
+    background: none;
+    top: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.touch .item-nav button.Dropdown-toggle.Button .Button-label {
+    display: none;
+}
+
+.touch i.icon.fas.fa-sort.Button-caret {
+    display: none;
+}
+
+
+
+div#chat {
+    font-family: monospace !important;
+    background: #02080f !important;
+    color: white !important;
+    font-size: 13px !important;
+}
+
+.toolbar a.name {
+    color: #56a9ff !important;
+}
+
+.ChatHeader {
+    cursor: move;
+    background-color: #370f30 !important;
+}
+
+.ChatList .header {
+    background-color: #370f30 !important;
+}
+
+.ChatList {
+    background-color: #000000 !important;
+}
+
+
+
+.panel-preview {
+    /* background-color: red !important; */
+}
+
+.ChatList:hover .panel-preview {
+    background: black !important;
+}
+
+.panel-add {
+    background-color: #02080f !important;
+}
+
+.ChatList .panel-add:before {
+    color: #2c2c2c !important;
+}
+
+.ChatList .panel-preview{
+    opacity: 0.5;
+}
+
+.ChatList .panel-preview:hover {
+    opacity: 1;
+}
+
+.ToggleButton.icon.icon-toggle {
+    display: none;
+}
+
+.ChatList .input-wrapper #chat-find {
+    background-color: black !important;
+    color: white !important;
+    cursor: text !important;
+}
+
+.ChatList .input-wrapper {
+    background-color: black !important;
+}
+
+.ChatList .panel-preview .avatar {
+    transform: scale(0.9);
+}
+
+.ChatList .panel-preview.active {
+    box-shadow: 0px 0px 0px 2px #ff4593;
+}
+
+.icon[data-title="Maximiser"] {
+    position: absolute !important;
+    right: 81px !important;
+    top: 0px  !important;
+    padding-left: 440px !important;
+}
+
+.icon[data-title="Minimiser"] {
+    position: absolute !important;
+    right: 61px  !important;
+}
+
+textarea#chat-input {
+    background-color: #151515 !important;
+    color: white !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    margin-bottom: 10px !important;
+}
+
+.ChatInput .icon.send {
+    margin-top: 6px !important;
+}
+
+.ChatHeader i.fas.fa-cloud-sun {
+    margin-right: 15px !important;
+}
+
+li.item-following {
+    display: none;
+}
+
+.active a {
+}
+
+
+
+.no-touch div#chat-panel {
+    width: 523px !important;
+}
+
+div.NeonChatFrame:not(.hidden) {
+    min-height: 250px;
+}
+
+.panel-preview .message {
+   margin-top: 25px;
+}
+
+#chat i.fas.fa-cog {
+    color: #896382 !important;
+    margin-left: 15px;
+}
+
+
+
+.message-wrapper {
+    margin-top: 14px;
+    margin-right: 15px;
+}
+
+.ChatInput.input-wrapper {
+    padding-top: 22px;
+}
+
+.panel-preview.active {}
+
+.AfruxWidgets-Widget-content {
+    background: #0f1331;
+}
+
+span.Avatar.PostUser-avatar {
+    transform: scale(0.8);
+}
+
+
+
+.no-touch .Post-body {
+    font-size: 15px;
+}
+
+.LastDiscussion-avatar {
+    display: block !important; 
+}
+
+.Post-actions {
+    opacity: 1 !important;
+}
+
+button.Button.Button--block.DiscussionList-update {
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border: 1px dashed #fca943;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.no-touch li.active a {font-weight: normal !important;border: 1px dashed;border-radius: 10px;margin-left: -16px;padding-left: 44px !important;color: white !important;}
+
+
+
+.no-touch i.icon.far.fa-comments.Button-icon {
+    /* color: #f3d95d !important; */
+}
+
+.BlogForumNav ul.Dropdown-menu.dropdown-menu {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.no-touch .sideNav a.hasIcon:hover {
+    border: 1px dashed;
+    border-radius: 10px;
+    margin-left: -16px;
+    padding-left: 44px !important;
+    /* width: fit-content; */
+    color: white !important;
+}
+
+li.TagCategory.TagCategory-priv-e.ParentCategory {
+    display: none;
+}
+
+li.TagCategory.TagCategory-public.ParentCategory {
+    display: none;
+}
+
+span.NotificationsDropdown-unread {
+    background: #c43c81;
+}
+
+.TagCategory-content-welcome .TagCategory-alignEnd, .TagCategory-content-events .TagCategory-alignEnd, .TagCategory-content-autour-de-cergy .TagCategory-alignEnd, .TagCategory-content-entraides .TagCategory-alignEnd, .TagCategory-content-organisation .TagCategory-alignEnd, .TagCategory-content-collectif-feministe .TagCategory-alignEnd,.TagCategory-content-music .TagCategory-alignEnd, .TagCategory-content-revue-show .TagCategory-alignEnd {
+    display: none !important;
+}
+
+.TagCategory-content-collectif-feministe .TagCategory-alignEnd {
+    display: none !important;
+}
+
+.TagCategory-description {
+    font-size: 11px !important;
+    color: #4d698e !important;
+    margin-top: 13px !important;
+    display: none;
+}
+
+.touch a.LastDiscussion-avatar {
+    transform: scale(0.8);
+    margin-left: -5px;
+    margin-right: 6px;
+}
+
+
+.LastDiscussion-bottomRow, .TagCategory.SubCategory .LastDiscussion .LastDiscussion-bottomRow .LastDiscussion-usernameLink {
+    color: #5c77a8 !important;
+    margin-top: 4px;
+    font-size: 8px;
+}
+
+
+.touch main.App-content {
+    background: #041024;
+}
+
+div#app-navigation {
+    background: #041024;
+}
+
+.touch div#drawer {
+    background: #041024;
+}
+
+.touch span.NotificationsDropdown-unread {
+    top: -212px;
+    left: 275px;
+    pointer-events: none;
+}
+
+.touch .paneShowing span.NotificationsDropdown-unread {
+    top: 2px;
+    left: 18px;
+    pointer-events: none;
+}
+
+
+.touch div#drawer {
+    visibility: visible;
+}
+
+
+
+
+.fc-daygrid td:not(.fc-day-today), .fc-daygrid th {
+    border: 1px solid white !important;
+}
+
+
+
+.flatpickr-calendar.hasTime.rangeMode.animate.inline {
+    font-family: monospace;
+    filter: invert(1) hue-rotate(-72deg);
+    margin-top: 19px;
+}
+
+td.fc-daygrid-day:hover {
+    background: #102b59;
+    cursor: pointer;
+}
+
+.fc-event-title:hover {
+    color: white;
+}
+
+.fc-list-day-cushion.fc-cell-shaded {
+    background: black;
+}
+
+
+
+.fc .fc-list-event:hover td {
+    background: #213e6f !important;
+}
+
+table.fc-list-table tbody {
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+table.fc-list-table tr {
+    display: inline-table;
+}
+
+
+button.fc-button-active {
+    background: #c43c81 !important;
+}
+
+
+
+
+
+.fc-list-day-cushion.fc-cell-shaded {
+    border-bottom: 1px solid;
+    background: #041024 !important;
+}
+
+td.fc-daygrid-day:hover {
+    background: #102b59;
+    cursor: pointer;
+}
+
+.fc-event-title:hover {
+    color: white;
+}
+
+
+
+.fc .fc-list-event:hover td {
+    background: #213e6f;
+}
+
+table.fc-list-table tbody {
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+table.fc-list-table tr {
+    display: inline-table;
+}
+
+
+button.fc-button-active {
+    background: #c43c81 !important;
+}
+
+
+.fc-list-day-cushion.fc-cell-shaded {
+    border-bottom: 1px solid;
+    background: #041024;
+}
+
+.fc-daygrid .fc-theme-standard td, .fc-daygrid .fc-theme-standard th {
+    border: 1px solid white;
+}
+
+
+input.FormControl {
+    color: white !important;
+}
+
+button[title="Publier la discussion"] span.Button-label {
+    font-family: monospace;
+}
+
+input.FormControl {
+    color: white !important;
+}
+
+button[title="Publier la discussion"] span.Button-label {
+    font-family: monospace;
+}
+
+ul.ComposerBody-header h3 {
+    color: #569cff !important;
+}
+
+.ButtonGroup.Dropdown.dropdown.DiscussionListItem-controls.itemCount11 {
+    margin-right: 19px;
+    
+}
+
+h1.Header-title {
+    /* pointer-events: none; */
+    user-select: none;
+}
+
+li.App-primaryControl.item-subscription {display: none;}
+
+.tooltip {
+    font-size: 10px;
+}
+
+.touch i.icon.fas.fa-envelope.Badge-icon {
+    text-shadow: 0px 0px 9px #ff00e0;
+     font-size: 18px;
+}
+
+.touch .item-session ul.Dropdown-menu.dropdown-menu span {
+    display: block !important;
+    width: 300px;
+    margin-left: 29px;
+}
+
+.item-session li.item-profile {
+    width: 300px;
+}
+
+.touch .item-session ul.Dropdown-menu.dropdown-menu li {
+    margin: 20px;
+    width: 300px;
+}
+
+.touch .Dropdown .Dropdown-menu>li>a, .touch .Dropdown .Dropdown-menu>li>button {
+    background: none;
+}
+
+.touch .item-nav .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount8 {
+    box-shadow: none;
+    background: none;
+    border-radius: 0px;
+    margin-top: 0px;
+}
+
+.touch .item-nav i.icon {
+    font-size: 18px !important;
+    width: 30px !important;
+}
+
+
+
+.touch li.item-edit {
+    width: 300px !important;
+}
+
+.item-edit span.Button-label {
+    display: block !important;
+    margin-left: 41px;
+}
+
+ol.TagCategory-subTagList {
+    margin-left: -31px;
+}
+
+main.App-content {
+    background: none !important;
+}
+
+.touch .item-nav ul.Dropdown-menu.dropdown-menu {
+    /* width: 300px !important; */
+    margin: 0 !important;
+    padding: 0 !important;
+    /* left: calc((100% - 300px)/2) !important; */
+}
+
+
+.touch .item-nav li {
+   /* width: 100px !important; */
+}
+
+.touch .item-nav .itemCount13 {
+    left: 42%;
+}
+
+.touch .fc-view-harness.fc-view-harness-active {
+    padding-bottom:  0 !important;
+    height: 294px;
+}
+
+button.fc-today-button.fc-button.fc-button-primary {
+    display: none;
+}
+
+.no-touch .TagCategory-alignEnd {
+    /* background-color: #0d203f; */
+    /* border-radius: 17px; */
+    /* box-shadow: 0px 0px 0px 8px #0d203f; */
+    display: none !important;
+}
+
+.LastDiscussion-topRow:hover {
+    text-decoration: none !important;
+}
+
+.TagCategory.SubCategory .TagCategory-content.hover:hover {
+    opacity: 1;
+}
+
+
+
+
+.TagCategory-alignEnd:hover {
+    filter: brightness(1.5);
+}
+
+.LastDiscussion-topRow {
+    text-decoration: none !important;
+    color: #4877a8 !important;
+}
+
+.touch li.TagCategory.SubCategory .TagCategory-content {
+    border: 2px dashed #122441;
+    border-radius: 10px;
+}
+
+.touch .LastDiscussion {
+    /* border: 4px solid #051a3b; 
+    background: #0d203f; */
+    border-radius: 10px;
+    background: #13305e;
+    padding: 6px;
+    border: 2px dashed #739fe7;
+    pointer-events: none;
+}
+
+
+.touch .item-language ul.Dropdown-menu.dropdown-menu span {
+    display: block;
+}
+
+.touch .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount17 {
+    left: 158px;
+}
+
+
+
+.TagCategory-lastDiscussion a.LastDiscussion-avatar {
+    pointer-events: none !important;
+}
+
+.TagCategory.SubCategory .TagCategory-content:hover {
+    /* background-color: #020c1c !important;
+    box-shadow: 0px 0px 0px 5px #020c1c !important;
+    border-radius: 21px !important; */
+}
+
+.TagCategory-alignStart .TagCategory-name:hover {
+    transform: skewX(10deg);
+    text-decoration: underline;
+}
+
+.no-touch a.Button.Navigation-back.Button--icon.hasIcon {
+    border: 2px dashed  #1c3764!important;
+    background: transparent;
+    color: white;
+    transform: scale(1.2);
+    margin-top: 13px;
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-right: 23px;
+}
+
+a.Button.Navigation-back.Button--icon.hasIcon:hover {
+    opacity: 0.5;
+}
+
+.DiscussionPage-list {
+    display: none !important;
+}
+
+.DiscussionListItem-info .item-excerpt {
+    font-size: 14px !important;
+    font-family: monospace !important;
+    color: #ffffff9e !important;
+}
+
+.DiscussionListItem-info {
+    color: #194171 !important;
+}
+
+.DiscussionListItem-author {
+    margin-left: -45px;
+}
+
+
+/* CSS POUR LE COLLECTIF FEMINISTE */
+
+
+
+
+
+a.TagCategory-content.TagCategory-content-collectif-feministe .TagCategory-description {
+    font-size: 24px !important;
+    color: #97beff !important;
+}
+
+
+
+
+li.Dropdown-separator {
+    display: none;
+}
+
+.item-collectif a {
+    display: none;
+}
+
+
+
+.no-touch .item-collectif a {
+    white-space: break-spaces !important;
+    color: #505df3 !important;
+}
+
+.no-touch li.item-privateDiscussions a {
+    /* color: #ff4a4a !important; */
+}
+
+.no-touch li.item-events a {
+    /* color: #32c0b9 !important; */
+}
+
+.no-touch li.item-blog a {
+    color: #43cdae !important;
+}
+
+.no-touch li.item-categories a {
+    /* color: #ea68ce !important; */
+}
+
+.no-touch .item-allDiscussions a {
+    /* color: #f3d95d !important; */
+}
+
+
+li.item-collectif {
+    display: block !important;
+    user-select: none;
+}
+
+.touch .item-nav ul.Dropdown-menu.dropdown-menu div {
+    display: none;
+}
+
+.touch .item-nav ul.Dropdown-menu.dropdown-menu div {
+    display: none;
+}
+
+.touch .TagCategory-content-collectif-feministe h4.TagCategory-name {
+    /* width: 283px !important; */
+}
+
+.TagCategory-content-collectif-feministe .TagCategory-main {
+    /* text-align: center !important;
+    margin-left: 16px; */
+}
+
+.TagCategory-actions, .TagCategory-cercle, .TagCategory-membres, .TagCategory-reunions {
+  display: none;
+}
+
+.logged-in .TagCategory-actions, .logged-in .TagCategory-cercle, .logged-in .TagCategory-membres, .logged-in .TagCategory-reunions {
+  display: block !important;;
+}
+
+/* IFRAME CSS */
+
+
+.PageHero {
+  display: none;
+}
+.Pages-container.container {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  white-space: normal;
+  width: 100%;
+  height: 100%;
+}
+.Post-body iframe {
+  border: none;
+  height: 1200px;
+  width: 100%;
+}
+
+.App--page header {
+  /* display: none !important; */
+}
+
+.title {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    cursor: pointer;
+}
+
+div#app {
+    overflow: hidden;
+}
+
+
+p.TagCategory-toggleArrow {
+    font-size: 24px;
+}
+div#privee {
+    border-top: 2px
+ #fff dashed;
+    padding: 10px;
+    padding-top: 30px;
+    margin: 15px;
+    margin-top: 35px;
+}
+
+div#public {
+    padding: 10px;
+    margin: 15px;
+}
+
+.ouverture {
+    display: none;
+}
+
+.logged-in #app .ouverture {
+    display: block !important;
+}
+
+span.SelectTagListItem-name {
+    width: auto;
+}
+
+span.SelectTagListItem-description {
+    display: none;
+}
+
+span.SelectTagListItem-name {
+    width: auto !important;
+    font-size: 14px;
+}
+
+
+
+@media (min-width: 992px){
+.sideNav, .sideNav>ul {
+    width: 260px;
+ }
+
+}
+
+@media (min-width: 1100px){
+.container {
+    width: auto;
+ }
+}
+
+.no-touch .container {
+  margin-left: 50px;
+}
+
+.no-touch nav.IndexPage-nav.sideNav ul {
+    /* display: flex; */
+}
+
+.no-touch  nav.IndexPage-nav.sideNav ul.Dropdown-menu {
+    /* flex-direction: row-reverse; */
+    /* display: flex; */
+    margin-left: 18px;
+}
+
+.no-touch .item-nav div {
+    /* display: flex; */
+    /* flex-direction: column-reverse; */
+}
+
+
+@media (min-width: 992px){
+.sideNavContainer {
+    display: flex;
+    /* flex-direction: column; */
+ } 
+}
+
+@media (min-width: 992px) {
+.sideNavOffset {
+    margin-top: 0px;
+ }
+}
+
+.no-touch nav.IndexPage-nav.sideNav ul.Dropdown-menu li {
+    margin-left: 14px;
+}
+
+input#startpicker {
+    pointer-events: none;
+}
+
+.fc-day-today {
+    background: #ff00b324 !important;
+    border: 2px ridge #ff00b3 !important;
+    box-shadow: 0px 0px 8px 0px inset #ff00b3;
+}
+
+.no-touch .container {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+a.fc-daygrid-event {
+    white-space: nowrap !important;
+    color: white;
+    font-size: 12px;
+}
+
+.fc-event-title {
+    white-space: pre-wrap;
+}
+
+.no-touch .item-nav .Dropdown-menu li a {
+    text-overflow: inherit;
+    white-space: pre-wrap;
+    padding-right: 30px;
+    color: white;
+}
+
+i.icon.fas.fa-envelope.Badge-icon {
+    box-shadow: #ff0091 0px 0px 10px 5px;
+}
+
+
+
+
+.TagCategory-subTagList .SubCategory a {
+    pointer-events: auto;
+}
+
+
+
+ol.TagCategoryList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h4.TagCategory-name {
+    font-size: 20px !important;
+    /* color: #359be8; */
+}
+
+ol.TagCategory-subTagList h4.TagCategory-name {
+    font-size: 20px !important;
+    color: black;
+}
+
+span.TagCategory-icon {
+    display: none !important;
+}
