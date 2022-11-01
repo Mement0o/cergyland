@@ -143,9 +143,11 @@ button[title~='Popularité'] {
 
 
 
-.Hero .container {
-    padding-top: 40px;
-    padding-bottom: 11px;
+.no-touch .Hero .container {
+    position: absolute;
+    top: 67px;
+    right: 0;
+    width: fit-content;
 }
 
 .item-nav li[class^="item-tag"] {
@@ -270,9 +272,9 @@ a.DiscussionListItem-author {
 }
 
 ul.DiscussionListItem-info {
-    font-size: 14px;
+    font-size: 9px;
     margin-top: 11px;
-    color: #194171 !important;
+    color: #ffffff !important;
 }
 
 .Afrux-NewsWidget .AfruxWidgets-Widget-content {
@@ -285,7 +287,7 @@ ul.DiscussionListItem-info {
 }
 
 .AfruxWidgets-Widget.Afrux-OnlineUsersWidget .AfruxWidgets-Widget-content {
-    background: #05081e54;
+    /* background: #05081e54; */
 }
 
 div#box {max-width: 222px;line-break: anywhere;}
@@ -359,7 +361,7 @@ a.TagCategory-content.TagCategory-content-blog {
 }
 
 a.TagCategory-content {
-    background: #27213c;
+    background-color: #27213c !important;
     box-shadow: none !important;
     /* pointer-events: none; */
     padding: 0 !important;
@@ -456,7 +458,8 @@ span.TagLabel-text {
 
 
 .DiscussionListItem {
-    border-radius: 20px;
+    border-radius: 0px;
+    border: 4px white ridge;
 }
 
 .DiscussionListItem:hover {
@@ -490,6 +493,7 @@ span.TagLabel-text {
 h2.Hero-title {
     text-shadow: 2px 0 0 #14191f, -2px 0 0 #14191f, 0 2px 0 #14191f, 0 -2px 0 #14191f, 1px 1px #14191f, -1px -1px 0 #14191f, 1px -1px 0 #14191f, -1px 1px 0 #14191f;
     color: white;
+    font-size: 16px;
 }
 
 li.item-frontpage {
@@ -808,7 +812,9 @@ div.NeonChatFrame:not(.hidden) {
 .panel-preview.active {}
 
 .AfruxWidgets-Widget-content {
-    background: #0f1331;
+    border-radius: 0px;
+    /* border: 1px white dashed; */
+    background: #05081e54;
 }
 
 span.Avatar.PostUser-avatar {
@@ -1217,8 +1223,7 @@ button.fc-today-button.fc-button.fc-button-primary {
 }
 
 .no-touch a.Button.Navigation-back.Button--icon.hasIcon {
-    border: 2px dashed  #1c3764!important;
-    background: transparent;
+    background: #27213c;
     color: white;
     transform: scale(1.2);
     margin-top: 13px;
@@ -1540,4 +1545,8 @@ img#computer {
     width: 132px;
     top: 484px;
     left: 73px;
+}
+
+.Hero-subtitle {
+    font-size: 12px;
 }
