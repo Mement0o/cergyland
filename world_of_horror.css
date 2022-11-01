@@ -149,7 +149,7 @@ button[title~='Popularité'] {
     position: absolute;
     top: 26px;
     right: 0;
-    width: 58%;
+    width: 70%;
 }
 
 .item-nav li[class^="item-tag"] {
@@ -1137,7 +1137,6 @@ ol.TagCategory-subTagList {
 
 main.App-content {
     background: none !important;
-    margin-top: 91px;
     /* border-top: 1px white dashed; */
 }
 
@@ -1421,6 +1420,8 @@ span.SelectTagListItem-name {
 @media (min-width: 992px){
 .sideNav, .sideNav>ul {
     width: 260px;
+    margin-top: 57px;
+    margin-right: 79px;
  }
 
 }
@@ -1455,13 +1456,13 @@ span.SelectTagListItem-name {
 .sideNavContainer {
     display: flex;
     /* flex-direction: column; */
-    margin-top: 28px;
+    /* margin-top: 37px; */
  } 
 }
 
 @media (min-width: 992px) {
 .sideNavOffset {
-    margin-top: 0px;
+    margin-top: 18px;
  }
 }
 
@@ -1518,6 +1519,7 @@ i.icon.fas.fa-envelope.Badge-icon {
 ol.TagCategoryList {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 h4.TagCategory-name {
@@ -1545,19 +1547,19 @@ span.TagCategory-icon {
 
 img#banner {
     position: absolute;
-    top: 0;
-    left: 0px;
-    width: 407px;
+    top: 7px;
+    left: 14px;
+    width: 345px;
     /* height: 135px; */
-    border-bottom: 2px dashed;
-    border-right: 2px dashed;
-    border-color: #27213c;
+    border: 2px dashed;
+    border-color: #4d4763;
+    padding: 5px;
 }
 
 img#computer {
     position: absolute;
     width: 132px;
-    top: 532px;
+    top: 465px;
     z-index: 1;
     left: 73px;
 }
@@ -1611,7 +1613,16 @@ h4.TagCategory-name {}
 }
 
 .illustrations {
-    position: absolute;z-index: 1;
+    position: absolute;
+    z-index: 1;
+}
+
+.no-touch .mobile {
+    display: none;
+}
+
+.touch .mobile {
+    display: block;
 }
 
 .home .touch img#welcome {
