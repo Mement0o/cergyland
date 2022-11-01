@@ -1511,11 +1511,13 @@ ol.TagCategoryList {
 h4.TagCategory-name {
     font-size: 20px !important;
     /* color: #359be8; */
+    font-weight: normal;
 }
 
 ol.TagCategory-subTagList h4.TagCategory-name {
     font-size: 20px !important;
     color: black;
+    font-weight: normal;
 }
 
 span.TagCategory-icon {
