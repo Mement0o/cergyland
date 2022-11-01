@@ -381,9 +381,7 @@ h3.DiscussionListItem-title {
     padding-right: 20px;
 }
 
-body.touch a.TagCategory-content {
-    border-radius: 10px !important;
-}
+body.touch a.TagCategory-content {background-color: transparent !important;}
 
 
 
@@ -396,6 +394,7 @@ body.touch a.TagCategory-content {
 
 body.touch .TagCategory-alignEnd {
     margin: 0;
+    display: none !important;
 }
 
 body.touch .container {
@@ -929,10 +928,11 @@ span.NotificationsDropdown-unread {
 
 .touch main.App-content {
     background: #041024;
+    margin-top: 154px;
 }
 
 div#app-navigation {
-    background: #041024;
+    background: #27213c;
 }
 
 .touch div#drawer {
@@ -1194,8 +1194,6 @@ button.fc-today-button.fc-button.fc-button-primary {
 }
 
 .touch li.TagCategory.SubCategory .TagCategory-content {
-    border: 2px dashed #122441;
-    border-radius: 10px;
 }
 
 .touch .LastDiscussion {
@@ -1560,6 +1558,7 @@ img#computer {
     position: absolute;
     width: 132px;
     top: 532px;
+    z-index: 1;
     left: 73px;
 }
 
@@ -1573,4 +1572,60 @@ img#computer {
 
 .DiscussionSearchResult-title {
     font-size: 10px;
+}
+
+.touch.home img#banner {
+    top: 47px;
+    width: 100%;
+    /* opacity: 0.5; */
+    border: 5px white ridge;
+}
+
+.touch button.Button.Button--primary.IndexPage-newDiscussion.hasIcon {
+    border: none;
+}
+
+.touch ol.TagCategory-subTagList {
+    margin-left: -38px;
+}
+
+.touch.home img#computer {
+    right: 11px;
+    top: 911px;
+    left: unset;
+}
+
+.touch li.TagCategory.SubCategory {
+    padding-left: 5px;
+    margin-top: 17px !important;
+    width: fit-content;
+}
+
+h4.TagCategory-name {}
+
+.touch.home img#wand {
+    top: 482px;
+    left: 197px;
+    width: 98px;
+    transform: inherit;
+}
+
+.illustrations {
+    position: absolute;z-index: 1;
+}
+
+.touch.home img#welcome {
+    top: 257px;
+    left: 214px;
+}
+
+.touch.home img#telephone {
+    top: 1202px;
+    left: 235px;
+}
+
+.touch.home img#artifice {
+    top: 1373px;
+    left: 179px;
+    width: 131px;
 }
