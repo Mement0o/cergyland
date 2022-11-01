@@ -15,7 +15,8 @@ li.item-chatItem {
 body {
     font-family: DOS;
     font-size: 10px;
-    background: #041024;
+    background: #27213c;
+    filter: sepia(1) hue-rotate(214deg);
 }
 
 @font-face{font-family:nintendo;src:url(/fonts/dogica.otf)}
@@ -61,7 +62,7 @@ input.FormChat {font-size: 15px;font-family: courier;color: black;}
 
 input.FormControl {
     font-size: 13px;
-    font-family: monospace;
+    color: white !important;
 }
 
 img.Header-logo {
@@ -85,6 +86,8 @@ button.Button.Button--primary.IndexPage-newDiscussion.hasIcon {
     /* box-shadow: 3px 2px 0px 2px #324763; */
     background: white;
     color: black;
+    border-radius: 0px;
+    border: 1px dashed black;
 }
 
 span.UserOnline {
@@ -124,8 +127,8 @@ button.Button.Button--primary.PollModal-SubmitButton.hasIcon {
 
 header#header {
     box-shadow: none;
-    background: #041024;
-    box-shadow: 0px 1px 7px 3px #041024;
+    background: none;
+    /* box-shadow: 0px 1px 7px 3px #041024; */
 }
 
 
@@ -1033,17 +1036,11 @@ button.fc-button-active {
 }
 
 
-input.FormControl {
-    color: white !important;
-}
 
 button[title="Publier la discussion"] span.Button-label {
     font-family: monospace;
 }
 
-input.FormControl {
-    color: white !important;
-}
 
 button[title="Publier la discussion"] span.Button-label {
     font-family: monospace;
@@ -1122,6 +1119,7 @@ ol.TagCategory-subTagList {
 
 main.App-content {
     background: none !important;
+    margin-top: 134px;
 }
 
 .touch .item-nav ul.Dropdown-menu.dropdown-menu {
@@ -1444,6 +1442,7 @@ span.SelectTagListItem-name {
 .sideNavContainer {
     display: flex;
     /* flex-direction: column; */
+    margin-top: 28px;
  } 
 }
 
@@ -1515,11 +1514,22 @@ h4.TagCategory-name {
 }
 
 ol.TagCategory-subTagList h4.TagCategory-name {
-    font-size: 20px !important;
+    font-size: 16px !important;
     color: black;
     font-weight: normal;
 }
 
 span.TagCategory-icon {
     display: none !important;
+}
+
+.Button {
+    color: white;
+    font-size: 14px;
+}
+
+img#banner {
+    position: absolute;
+    top: 0;
+    width: 554px;
 }
