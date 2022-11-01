@@ -60,7 +60,7 @@ h3.TagTile-name {
 input.FormChat {font-size: 15px;font-family: courier;color: black;}
 
 input.FormControl {
-    font-size: 13px;
+    font-size: 10px;
     color: white !important;
 }
 
@@ -86,7 +86,7 @@ button.Button.Button--primary.IndexPage-newDiscussion.hasIcon {
     background: white;
     color: black;
     border-radius: 0px;
-    /* border: 1px dashed black; */
+    border: 3px #dbdbdb ridge;
 }
 
 span.UserOnline {
@@ -128,6 +128,8 @@ header#header {
     box-shadow: none;
     background: none;
     /* box-shadow: 0px 1px 7px 3px #041024; */
+    position: absolute;
+    /* border-bottom: 1px white dashed; */
 }
 
 
@@ -145,9 +147,9 @@ button[title~='Popularité'] {
 
 .no-touch .Hero .container {
     position: absolute;
-    top: 70px;
+    top: 26px;
     right: 0;
-    width: 55%;
+    width: 58%;
 }
 
 .item-nav li[class^="item-tag"] {
@@ -241,7 +243,7 @@ h3.FlarumBlog-Article-Title {
 }
 
 .DiscussionListItem-content.Slidable-content.unread {
-    border: 2px #041024 dashed;
+    border: 3px #041024 dashed;
     background: #550c45;
 }
 
@@ -502,7 +504,7 @@ span.TagLabel-text {
 h2.Hero-title {
     text-shadow: 2px 0 0 #14191f, -2px 0 0 #14191f, 0 2px 0 #14191f, 0 -2px 0 #14191f, 1px 1px #14191f, -1px -1px 0 #14191f, 1px -1px 0 #14191f, -1px 1px 0 #14191f;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 li.item-frontpage {
@@ -877,11 +879,11 @@ button.Button.Button--block.DiscussionList-update {
 
 .no-touch .sideNav a.hasIcon:hover {
     border: 1px dashed;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-left: -16px;
     padding-left: 44px !important;
     /* width: fit-content; */
-    color: white !important;
+    /* color: white !important; */
 }
 
 li.TagCategory.TagCategory-priv-e.ParentCategory {
@@ -1135,7 +1137,8 @@ ol.TagCategory-subTagList {
 
 main.App-content {
     background: none !important;
-    margin-top: 135px;
+    margin-top: 91px;
+    /* border-top: 1px white dashed; */
 }
 
 .touch .item-nav ul.Dropdown-menu.dropdown-menu {
@@ -1545,7 +1548,9 @@ span.TagCategory-icon {
 img#banner {
     position: absolute;
     top: 0;
-    width: 40%;
+    left: 0px;
+    width: 407px;
+    /* height: 135px; */
     border-bottom: 2px dashed;
     border-right: 2px dashed;
     border-color: #27213c;
@@ -1559,5 +1564,13 @@ img#computer {
 }
 
 .Hero-subtitle {
-    font-size: 12px;
+    font-size: 10px;
+}
+
+.Search-results {
+    font-size: 9px !important;
+}
+
+.DiscussionSearchResult-title {
+    font-size: 10px;
 }
