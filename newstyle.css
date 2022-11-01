@@ -220,7 +220,9 @@ h3.FlarumBlog-Article-Title {
     max-width: 70% !important;
 }
 
-.SubCategory {}
+.SubCategory {
+    margin: 0 !important;
+}
 
 
 .DiscussionListItem-content.Slidable-content{
@@ -295,6 +297,7 @@ a.TagCategory-content.TagCategory-content-blog {
    box-shadow: none !important;
    display: flex;
    flex-direction: column;
+   padding: 0;
 }
 
 .LastDiscussion-userCardContainer {
@@ -352,6 +355,7 @@ a.TagCategory-content {
     background: none !important;
     box-shadow: none !important;
     pointer-events: none;
+    padding: 0 !important;
 }
 
 h3.DiscussionListItem-title {
@@ -1142,8 +1146,9 @@ button.fc-today-button.fc-button.fc-button-primary {
 
 .no-touch .TagCategory-alignEnd {
     /* background-color: #0d203f; */
-    border-radius: 17px;
+    /* border-radius: 17px; */
     /* box-shadow: 0px 0px 0px 8px #0d203f; */
+    display: none !important;
 }
 
 .LastDiscussion-topRow:hover {
@@ -1415,26 +1420,25 @@ span.SelectTagListItem-name {
 }
 
 .no-touch nav.IndexPage-nav.sideNav ul {
-    display: flex;
+    /* display: flex; */
 }
 
 .no-touch  nav.IndexPage-nav.sideNav ul.Dropdown-menu {
-    flex-direction: row-reverse;
-    display: flex;
+    /* flex-direction: row-reverse; */
+    /* display: flex; */
     margin-left: 18px;
 }
 
 .no-touch .item-nav div {
-    display: flex;
-    flex-direction: row-reverse;
+    /* display: flex; */
+    /* flex-direction: column-reverse; */
 }
 
 
 @media (min-width: 992px){
 .sideNavContainer {
     display: flex;
-        flex-direction: column;
-
+    /* flex-direction: column; */
  } 
 }
 
@@ -1500,4 +1504,10 @@ ol.TagCategoryList {
 
 h4.TagCategory-name {
     font-size: 12px !important;
+    color: #359be8;
+}
+
+ol.TagCategory-subTagList h4.TagCategory-name {
+    font-size: 12px !important;
+    color: deeppink;
 }
