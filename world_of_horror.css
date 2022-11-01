@@ -13,10 +13,9 @@ li.item-chatItem {
 }
 
 body {
-    font-family: DOS;
-    font-size: 10px;
+    font-family: nintendo;
+    font-size: 8px;
     background: #27213c;
-    filter: sepia(1) hue-rotate(214deg);
 }
 
 @font-face{font-family:nintendo;src:url(/fonts/dogica.otf)}
@@ -80,14 +79,14 @@ header.Hero.TagHero {
 }
 
 button.Button.Button--primary.IndexPage-newDiscussion.hasIcon {
-    font-size: 14px;
+    font-size: 10px;
     padding: 9px;
     margin: 0;
-    /* box-shadow: 3px 2px 0px 2px #324763; */
+    box-shadow: 0px 0px 0px 11px #27213c;
     background: white;
     color: black;
     border-radius: 0px;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 span.UserOnline {
@@ -112,7 +111,7 @@ article.CommentPost.Post--hidden {
 
 button.Button.Button--primary.PollModal-SubmitButton.hasIcon {
     text-transform: capitalize;
-    font-size: 13px;
+    font-size: 11px;
     box-shadow: #28394f 3px 2px 0px 2px;
 }
 
@@ -236,7 +235,7 @@ h3.FlarumBlog-Article-Title {
     border-radius: 24px;
     margin-bottom: 15px;
     margin-top: 15px;
-    background: #002147eb;
+    /* background: #002147eb; */
 }
 
 .DiscussionListItem-content.Slidable-content.unread {
@@ -245,7 +244,7 @@ h3.FlarumBlog-Article-Title {
 }
 
 .DiscussionListItem-content.Slidable-content.read {
-    border: 2px #002147eb dashed !important;
+    /* border: 2px #002147eb dashed !important; */
     user-select: none;
 }
 
@@ -271,8 +270,9 @@ a.DiscussionListItem-author {
 }
 
 ul.DiscussionListItem-info {
-    font-size: 9px;
+    font-size: 14px;
     margin-top: 11px;
+    color: #194171 !important;
 }
 
 .Afrux-NewsWidget .AfruxWidgets-Widget-content {
@@ -359,7 +359,7 @@ a.TagCategory-content.TagCategory-content-blog {
 }
 
 a.TagCategory-content {
-    background: none !important;
+    background: #27213c;
     box-shadow: none !important;
     /* pointer-events: none; */
     padding: 0 !important;
@@ -1058,6 +1058,7 @@ ul.ComposerBody-header h3 {
 h1.Header-title {
     /* pointer-events: none; */
     user-select: none;
+    display: none;
 }
 
 li.App-primaryControl.item-subscription {display: none;}
@@ -1119,7 +1120,7 @@ ol.TagCategory-subTagList {
 
 main.App-content {
     background: none !important;
-    margin-top: 134px;
+    margin-top: 135px;
 }
 
 .touch .item-nav ul.Dropdown-menu.dropdown-menu {
@@ -1240,9 +1241,6 @@ a.Button.Navigation-back.Button--icon.hasIcon:hover {
     color: #ffffff9e !important;
 }
 
-.DiscussionListItem-info {
-    color: #194171 !important;
-}
 
 .DiscussionListItem-author {
     margin-left: -45px;
@@ -1279,11 +1277,11 @@ li.Dropdown-separator {
 }
 
 .no-touch li.item-privateDiscussions a {
-    /* color: #ff4a4a !important; */
+    color: #ff4a4a !important;
 }
 
 .no-touch li.item-events a {
-    /* color: #32c0b9 !important; */
+    color: #32c0b9 !important;
 }
 
 .no-touch li.item-blog a {
@@ -1291,11 +1289,11 @@ li.Dropdown-separator {
 }
 
 .no-touch li.item-categories a {
-    /* color: #ea68ce !important; */
+    color: #ea68ce !important;
 }
 
 .no-touch .item-allDiscussions a {
-    /* color: #f3d95d !important; */
+    color: #f3d95d !important;
 }
 
 
@@ -1508,13 +1506,13 @@ ol.TagCategoryList {
 }
 
 h4.TagCategory-name {
-    font-size: 20px !important;
+    font-size: 14px !important;
     /* color: #359be8; */
     font-weight: normal;
 }
 
 ol.TagCategory-subTagList h4.TagCategory-name {
-    font-size: 16px !important;
+    font-size: 12px !important;
     color: black;
     font-weight: normal;
 }
@@ -1525,11 +1523,21 @@ span.TagCategory-icon {
 
 .Button {
     color: white;
-    font-size: 14px;
+    font-size: 9px;
 }
 
 img#banner {
     position: absolute;
     top: 0;
     width: 554px;
+    border-bottom: 2px dashed;
+    border-right: 2px dashed;
+    border-color: #27213c;
+}
+
+img#computer {
+    position: absolute;
+    width: 132px;
+    top: 484px;
+    left: 73px;
 }
