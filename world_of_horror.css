@@ -1574,7 +1574,7 @@ img#computer {
     font-size: 10px;
 }
 
-.touch.home img#banner {
+.home .touch img#banner {
     top: 47px;
     width: 100%;
     /* opacity: 0.5; */
@@ -1589,7 +1589,7 @@ img#computer {
     margin-left: -38px;
 }
 
-.touch.home img#computer {
+.home .touch img#computer {
     right: 11px;
     top: 911px;
     left: unset;
@@ -1603,7 +1603,7 @@ img#computer {
 
 h4.TagCategory-name {}
 
-.touch.home img#wand {
+.home .touch img#wand {
     top: 482px;
     left: 197px;
     width: 98px;
@@ -1614,17 +1614,17 @@ h4.TagCategory-name {}
     position: absolute;z-index: 1;
 }
 
-.touch.home img#welcome {
+.home .touch img#welcome {
     top: 257px;
     left: 214px;
 }
 
-.touch.home img#telephone {
+.home .touch img#telephone {
     top: 1202px;
     left: 235px;
 }
 
-.touch.home img#artifice {
+.home .touch img#artifice {
     top: 1373px;
     left: 179px;
     width: 131px;
